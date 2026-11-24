@@ -1,0 +1,1664 @@
+{
+  "2": [
+    [
+      4,
+      "PROBLEM SOLVING\n  A Core Competency in\nProgramming and Systems\n         Thinking"
+    ],
+    [
+      5,
+      "Problem Solving\n\nWhat Is Problem Solving?\n❖process of identifying a challenge\n❖analyzing its components\n❖developing a logical, effective solution"
+    ],
+    [
+      6,
+      "Problem Solving\n\nKey Attributes of Problem Solving\n❑Clarity in understanding the problem\n❑Logical decomposition of tasks\n❑Strategic planning and execution\n❑Evaluation and refinement of solutions"
+    ],
+    [
+      7,
+      "Problem Solving\n\nThe Problem-Solving Process"
+    ],
+    [
+      8,
+      "Problem Solving\n\nProblem Identification\n❑Define the issue clearly\n❑Distinguish between symptoms and root causes\n❑Determine the scope and impact"
+    ],
+    [
+      9,
+      "Problem Solving\n\nAnalysis\n❑Gather relevant data and constraints\n❑Identify patterns, dependencies, and limitations\n❑Break down the problem into smaller\n  components"
+    ],
+    [
+      10,
+      "Problem Solving\n\nSolution Design\n❑Brainstorm possible approaches\n❑Use tools like pseudocode, flowcharts, or\n  diagrams\n❑Consider modularity, scalability, and error\n  handling"
+    ],
+    [
+      11,
+      "Problem Solving\n\nImplementation\n\n❑Translate the plan into executable code or\n   operational steps\n❑Follow best practices and documentation\n  standards"
+    ],
+    [
+      12,
+      "Problem Solving\n\nTesting and Evaluation\n❑Validate outputs against expected results\n❑Check for edge cases and exceptions\n❑Assess performance and reliability"
+    ],
+    [
+      13,
+      "Problem Solving\n\nRefinement and Maintenance\n❑Optimize logic and structure\n❑Update documentation\n❑Monitor for future issues or improvements"
+    ],
+    [
+      14,
+      "Strategies\nfor Effective\nProblem\nSolving"
+    ],
+    [
+      15,
+      "Strategies for Effective\nProblem Solving\n\nDivide and Conquer\n   • Break the problem into\n    manageable parts\nTrial and Error\n   •  Experiment with different\n    approaches"
+    ],
+    [
+      16,
+      "Strategies for Effective\nProblem Solving\n\nPattern Recognition\n   •  Identify recurring structures\n     or behaviors\nAlgorithmic Thinking\n   •  Apply step-by-step logic"
+    ],
+    [
+      17,
+      "Strategies for Effective\nProblem Solving\n\nRoot Cause Analysis\n   •  Investigate underlying\n    causes beyond surface"
+    ],
+    [
+      18,
+      "Understanding Pseudocode\nA Practical Guide for Program\n          Planning"
+    ],
+    [
+      19,
+      "What Is Pseudocode?\n\nWriting program steps in structured English.\n  Language-neutral\n  Easy to read/write\n  Emphasizes logic & structure\n  Useful for planning, teaching,\n    documentation"
+    ],
+    [
+      20,
+      "What Is Pseudocode?\n  START\n  INPUT user_age\n   IF user_age >= 18 THEN\n   DISPLAY \"Access granted\"\n  ELSE\n   DISPLAY \"Access denied\"\n  END"
+    ],
+    [
+      21,
+      "Planning & Designing with\nPseudocode\n\nClarifies\n ➢Program objectives\n ➢Data processing\n  ➢Decisions & loops\n ➢Module interactions"
+    ],
+    [
+      22,
+      "Planning & Designing with\nPseudocode\n\nBenefits\n ➢Reduces coding errors\n  ➢Improves collaboration\n  ➢Ensures compliance with design specs"
+    ],
+    [
+      23,
+      "Input–Process–Output Cycle"
+    ],
+    [
+      24,
+      "Takeaways\nProblem solving is a universal skill\n✓underpins success in technical, operational,\n  and strategic domains\n✓By applying structured thinking\n✓leveraging appropriate tools\n✓continuously refining solutions\n✓individuals can navigate complexity\n✓deliver impactful results"
+    ],
+    [
+      25,
+      "Takeaways\nPseudocode is a simplified, structured way of\ndescribing a program’s logic using plain language.\nIt is not bound by any specific programming\nsyntax, making it accessible to both technical and\nnon-technical stakeholders. Pseudocode serves\nas a bridge between conceptual design and actual\nimplementation, helping programmers and\nanalysts plan and communicate effectively."
+    ],
+    [
+      26,
+      "BIG\n O\n Notation\nTime & Space Complexity"
+    ],
+    [
+      27,
+      "Why Complexity Matters\n\nQuestions every programmer asks:\n➢How fast will this run?\n➢How much memory will it use?\n\nComplexity analysis\npredicting performance without running code\nBig O notation\nuniversal language of efficiency"
+    ],
+    [
+      28,
+      "Big O Notation\n\nDescribes the upper\nbound of growth rate\n\n✓Compare scalability\n✓Express worst-case\n   behavior\n✓Standardize efficiency\n   discussions"
+    ],
+    [
+      29,
+      "Time Complexity Basics\n\nMeasures number of steps as input size grows\n\n➢O(1)        -   Constant\n➢O(n)        -    Linear\n➢O(log n)   -    Logarithmic\n➢O(n²)       -   Quadratic"
+    ],
+    [
+      30,
+      "Time Complexity Basics\n\nO(1) – Constant Time\n•  The number of steps stays the same, no matter how\n   big the input is.\n•  Opening a box with a key. Whether the box has 1\n   item or 1,000 items, it’s just one turn of the key.\n•  Accessing an array element by index → always one\n   step."
+    ],
+    [
+      31,
+      "Time Complexity Basics\n\nO(n) – Linear Time\n•  Steps grow directly with input size.\n•  Checking every student’s name in a class list. If there\n   are 10 students, 10 checks. If 100 students, 100\n   checks.\n•  Linear search → look through each item until you find\n   the target."
+    ],
+    [
+      32,
+      "Time Complexity Basics\n\nO(log n) – Logarithmic Time\n•  Steps grow slowly, because the problem shrinks by\n   half each time.\n•  Looking up a name in a phone book by opening in the\n   middle, then halving again.\n•  1,000,000 names → only about 20 steps!\n•  Binary search, balanced trees.\n•  Logs = “counting how many times you can cut the\n   pile in half.”"
+    ],
+    [
+      33,
+      "Time Complexity Basics\n\nO(n²) – Quadratic Time\n•  Steps grow as the square of input size.\n•  Comparing every student with every other student in\n  a class.\n      •  10 students → 100 comparisons.\n      •  100 students → 10,000 comparisons.\n•  Bubble sort, nested loops"
+    ],
+    [
+      34,
+      "Complexity in Data Structures\n\n                                      Insert /\n   DS     Access    Search             Space\n                                   Delete\n   Array      O(1)       O(n)       O(n)       O(n)\n\nLinked List    O(n)       O(n)    O(1) (head)    O(n)\n  Stack /\n              O(1)       O(n)       O(1)       O(n)\n  Queue\nHash Table    O(1)       O(1)       O(1)       O(n)\n\nBinary Tree  O(log n)    O(log n)    O(log n)     O(n)"
+    ],
+    [
+      35,
+      "Why Big O Matters\n\n➢Helps choose the right algorithm for large\n   datasets\n\n➢Prevents performance bottlenecks\n\n➢Ensures scalability and maintainability\n\n➢Optimizes resource usage"
+    ],
+    [
+      36,
+      "Group Activity\nGet 1 whole Yellow Paper\n  Write the Group Name"
+    ],
+    [
+      37,
+      "Using the Problem Solving Process, Analyze the\n                   scenarios and a) give the answer, b) create a\n                pseudocode and c) identify the Big O notation used.\n\n        Example         BEGIN\n1. Micah has 3 apples, Mike    SET apples_initial = 3\ngave Micah another 3 apples.   SET apples_given = 3\nHow many plastic bags should   SET total_apples = apples_initial + apples_given\nbe used if a plastic bag can     SET capacity_per_bag = 2\nonly fit 2 apples?            SET bags_needed = total_apples / capacity_per_bag\na) 3 plastic bags                  IF total_apples MOD capacity_per_bag != 0 THEN\nb)                            bags_needed = bags_needed + 1\nc) 0(1) Constant time        END IF\n                          DISPLAY \"Total apples: \", total_apples\n                          DISPLAY \"Plastic bags needed: \", bags_needed\n                     END"
+    ],
+    [
+      38,
+      "May tatlong Filipino at tatlong Aswang na\nkailangang tumawid ng ilog gamit ang isang\nbangka.\n•  Ang kaya lang ng bangka ay dalawa (Filipino\n  man o Aswang).\n•  Kapag naging mas madami ang bilang ng\n  aswang sa Filipino saan man sa\n  magkabilang dulo ng ilog, kakainin ng\n  aswang ang Filipino.\n•  Tanging ang sakay lamang ang\n  makapagsasagwan ng bangka.\n Paano makatatawid nang ligtas ang lahat?"
+    ],
+    [
+      39,
+      "Water jug puzzle\nMeasure exactly 4 liters using an unmarked 5-liter container, an unmarked 3-liter container, and a faucet. Both containers start empty. Write the steps as pseudocode."
+    ],
+    [
+      40,
+      "I have 8 boxes of gifts, all of them are           Using the\nidentical color, size and how they are          balance scale\nwrapped. In one of the gifts, a 1000 peso     how would you\nbill is inside. It’s taped inside the box and     know which gift\nno sound will come out if you shake it. The     has the 1000\nonly difference now is the weight, but it is       peso bill?\ntoo negligible to determine. We have a\nspecialized balance scale that is sensitive\nup to 0.001 micrograms. You have two\nchances to use the balance scale."
+    ]
+  ],
+  "3": [
+    [
+      6,
+      "Data Structure is a concrete\n representation of data from the\npoint of view of the Implementor"
+    ],
+    [
+      7,
+      "DATA STRUCTURE\n\nØ  a way to organize information\n ü    so it can be useful\n ü    so it can be easily accessed\n ü    so it can be efficiently updated\n\n DATA STRUCTURE IS A BIG FACTOR IN CREATING\n     AND\\OR FORMULATING ALGORITHMS"
+    ],
+    [
+      8,
+      "ALGORITHMS\n\nØa well-defined set of instructions or rules\nØdesigned to do specific tasks\nØsolve a problem"
+    ],
+    [
+      9,
+      "DATA STRUCTURE & ALGORITHMS\n\n• Computing is all about performing operations on\n information\n• The use of data structures helps you perform\n operations efficiently\n• Understanding the different data structures out there\n help you understand what trade-offs you make while\n working with data"
+    ],
+    [
+      10,
+      "DATA STRUCTURE & ALGORITHMS\n\n• Data structures are set up to make difficult operations\n possible.\n• Data structures try and occupy less space and still\n represent the complexity of the information and the\n interrelationships that you want to express in an\n  intuitive way."
+    ],
+    [
+      11,
+      "DATA STRUCTURE & ALGORITHMS\n\nDATA-CENTRIC way of programming\n\nEverything is a trade-off\n\nAlgorithms are logic based on data structure"
+    ],
+    [
+      12,
+      "DATA STRUCTURE & ALGORITHMS\nLinear Data Structure\n    Arrays\n    A collection of elements identified by index or\n     key\n\n   Linked List\n    A sequence of nodes where each node points\n      to the next node"
+    ],
+    [
+      13,
+      "DATA STRUCTURE & ALGORITHMS\nLinear Data Structure\n   Stacks\n      Follows Last In, First Out (LIFO) principle\n\n   Queues\n      Follows First In, First Out (FIFO) principle"
+    ],
+    [
+      14,
+      "DATA STRUCTURE & ALGORITHMS\nNon-Linear Data Structure\n   Trees\n    A hierarchical structure with a root node and child\n     nodes\n   Heaps\n    A special tree-based structure that satisfies the\n     heap property"
+    ],
+    [
+      15,
+      "DATA STRUCTURE & ALGORITHMS\nNon-Linear Data Structure\n   Graphs\n      Consists of vertices (nodes) and edges\n      (connections between nodes)"
+    ],
+    [
+      16,
+      "DATA STRUCTURE & ALGORITHMS\nHash Table\n\n  Stores key-value pairs and uses a hash function to\n  compute an index into an array of buckets or slots"
+    ],
+    [
+      17,
+      "ABSTRACT DATA TYPES\n\nTYPES OF ABSTRACT DATA\n   • List ADT\n   • Stack ADT\n   • Queue ADT\n   • Set ADT\n   • Map ADT"
+    ],
+    [
+      18,
+      "ADTs provide a clear INTERFACE for\n DATA MANIPULATION while hiding\n       implementation details"
+    ],
+    [
+      19,
+      "ABSTRACT DATA TYPES\n\n• a way to define data types by their behavior\n from the user’s perspective, rather than by\n  their implementation\n\n• it answers the how?"
+    ],
+    [
+      20,
+      "ARRAY\n\nManipulation Techniques\n   • Initialization: int[] arr = {1, 2, 3};\n   • Accessing Elements: arr[0] returns 1\n   • Updating Values: arr[2] = 10;\n   • Iteration: Using for or for-each loop\n   • Sorting: Arrays.sort(arr);\n   • Searching: Linear or binary search"
+    ],
+    [
+      21,
+      "ARRAY\n\n• fundamental and elementary data structure\n used in programming\n• store a collection of elements of the same\n type"
+    ],
+    [
+      22,
+      "ARRAY\n\nCharacteristics\n   • Fixed Size\n   • Homogeneous\n   • Indexed\n   • Contiguous memory allocation\n   • Efficient access"
+    ],
+    [
+      23,
+      "fruits = [\"apple\", \"banana\", \"cherry\"]\n\nfor fruit in fruits:\n   print(fruit)\n                                      for fruit in fruits:\ncount = 0                                                               if fruit == \"banana\":\nwhile count < 5:                                    continue\n   print(count)                                            print(fruit)\n  count += 1\nfor fruit in fruits:\n    if fruit == \"banana\":\n    break\n   print(fruit)"
+    ],
+    [
+      24,
+      "STATIC ARRAY\n\n•  fixed-size data structure\n•  stores elements of the same type\n•  contiguous memory locations"
+    ],
+    [
+      25,
+      "STATIC ARRAY\n\nKey Characteristics\n•  Size is defined at the time of creation and\n  cannot change.\n• Memory is allocated at compile time.\n•  Efficient for predictable, uniform data sets"
+    ],
+    [
+      26,
+      "STATIC ARRAY\n\nExample\nImagine a row of locker\n• each locker is numbered and holds one\n  item\n• you can’t add more lockers once built"
+    ],
+    [
+      27,
+      "STATIC ARRAY\n\nUse Cases\n•  Storing fixed-length records (e.g., days of\n  the week)\n• When memory usage needs to be tightly\n   controlled"
+    ],
+    [
+      28,
+      "DYNAMIC ARRAY\n\n•  resizable array structure\n• can grow or shrink during runtime as\n  needed"
+    ],
+    [
+      29,
+      "DYNAMIC ARRAY\n\nKey Characteristics\n•  Size can change dynamically\n• Memory is allocated at runtime\n•  Often implemented using static arrays\n   internally with resizing logic"
+    ],
+    [
+      30,
+      "DYNAMIC ARRAY\n\nExample\nThink of a flexible shelf that expands\n• when you need more space\n• new compartments are added as needed"
+    ],
+    [
+      31,
+      "DYNAMIC ARRAY\n\nUse Cases\n• Managing user input of unknown length\n•  Building lists that evolve over time (e.g.,\n  shopping cart items)"
+    ],
+    [
+      32,
+      "ARRAY\nFeature           Static Array          Dynamic Array\n                                 Can grow orSize              Fixed at creation                                             shrink at runtime\nMemory Allocation Compile-time          Runtime\nFlexibility       Low                   High\n                  Fast access, minimal     Slight overheadPerformance                overhead             due to resizing\n                    Predictable, uniform data Variable-length orUse Case                   sets                     evolving datasets"
+    ],
+    [
+      33,
+      "Static arrays offer speed and simplicity, while\ndynamic arrays provide flexibility and scalability.\n\n   Choose based on the problem’s nature."
+    ],
+    [
+      34,
+      "STRING HANDLING\nConcept Overview\n• Strings are immutable sequences of characters.\n• Java treats strings as objects of the String class.\n• Syntax: String name = \"Francis\";"
+    ],
+    [
+      35,
+      "STRING HANDLING\nKey Characteristics\n• Immutable (cannot be changed once created)\n• Stored in the String pool for memory efficiency\n• Rich API for manipulation"
+    ],
+    [
+      36,
+      "STRING HANDLING\nManipulation Techniques\n•  Concatenation        str1 + str2\n•  Length                 str.length()\n•  Substring             str.substring(0, 5)\n• Replace               str.replace(\"a\", \"e\")\n•  Split                      str.split(\" \")\n• Comparison           str.equals(\"text\")"
+    ],
+    [
+      37,
+      "RESERVED WORDS\n   Keyword       Purpose\n   new              Allocates memory for array creation\n    for                Iterates through array elements\n     int              Declares array type (e.g., int[])\n    length           Property to get array size\n   import         Used to include utility classes like Arrays\nNote: While Arrays is not a reserved word, it’s a\ncommonly used utility class from java.util for sorting,\nsearching, and more."
+    ],
+    [
+      38,
+      "RESERVED WORDS\n Keyword     Purpose\n  String         Declares string variables\n new          Creates new String objects\n  return        Used in methods that return strings\n   if             Often used in string comparison logic\n  null           Represents absence of a string value\nNote: String methods like .equals(), .substring(),\nand .replace() are part of the String class, not reserved\nkeywords, but they are essential tools in string manipulation."
+    ],
+    [
+      39,
+      "is Architecture Neutral\n  uses Bytecode to make this\n                     possible"
+    ],
+    [
+      40,
+      "Package Name - packages are      Comments - This makes the         Class Declaration - the name of\nused to group related classes,        code more readable and               the object\\class\ninterfaces and sub-packages, an       understable, it makes other\nunnamed package will be            programmer know the purpose of\nincluded in the default package         the statement, method or class\n\nMain Method - serves as the          Variable declarations -             Statements - this is where you\nentry point for a Java application         initialization and declaration of          put the logic\n                                          variables, or readability purposes\n                                        declarations are often put in the\n                                     beginning of the class or method"
+    ],
+    [
+      41,
+      "• a software that knows how\n  to interpret and execute\n Java bytecode\n• instead of a Java running\n  directly to a system JVM\n  interprets it and JVM\n  interacts with the OS\n  architecture which then\n  executes it\n• JVM = translator"
+    ],
+    [
+      42,
+      "Packages\n•  simply speaking this is just a folder or a directory. We\n  use packages to avoid conflict and segregate things\n•  earlier you learned about abstraction, in abstraction you\n   classify the objects, this classification method is applied\n   in grouping the classes to a package and sometimes\n  packages to a bigger package"
+    ],
+    [
+      43,
+      "Comments\nBased on the C language there are 2 ways to comment\n            // - double forward slash - used as one liner comment\n       examples:\n            // This is a one liner comment before a statement\n            if( x==gaveChocolates() ||  // This is one liner\n     comment after a line\n       x==askForgiveness() ) {\n            ...\n          }\n            // This is a one liner comment after a statement"
+    ],
+    [
+      44,
+      "Comments\nBased on the C language there are 2 ways to comment\n   •  /*...*/ - beginning forward slash and asterisk\\star and\n    ending asterisk\\star anf forward slash - this is used for\n     multiple line comments\n    examples:\n             /* This is a one-liner comment using the slash-star\n              */\n             /* This is a two-liner comment using the slash-star\n        and will end in a star-slash */"
+    ],
+    [
+      45,
+      "Comments\n             /* This is a three-liner comment using the slash-\n           star\n             * The asterisk\\star in this line doesn’t serve a\n         purpose except for aesthetic\n              */\n             /* You cannot do a nested comment\n             int x=2;\n             /* You cannot do a nested comment 2\n              */\n              */"
+    ],
+    [
+      46,
+      "Comments\nBut because this is Java, we have a third way and final type\nof commenting called Javadoc or Java Documentation\nComments\n• This can be parsed from source code by a special javadoc\n  command-line utility programs included in the JDK.\n• This will be tackled later in detail."
+    ],
+    [
+      47,
+      "Class Wrapper or Class Declaration\n\n• Curly brackets or braces encloses the body (class body).\n• all the main logic and all building blocks are included in the\n  class body\n• important keywords are public and class - these keywords\n  will be tackled later in detail"
+    ],
+    [
+      48,
+      "Main Method\n  Methods\n      • functions are called methods in java\n      • a set of statements which only runs when it is called\n      •  it can accept parameters (arguments)\n      •  it can also throw a value"
+    ],
+    [
+      49,
+      "• The main method is called by JVM to start\n• keywords for these are public, static, void, and String[]\n• In a simple program, all logic can be done in the main\n  method"
+    ],
+    [
+      50,
+      "GROUP ACTIVITY: SUDOKU\n                            • 20 pts, group work\n                            • 60% should work\n                            • 40% requirements met\n\n                   Create a solved 9x9 sudoku puzzle using array and\n                      loops.\n                   Should follow sudoku rules\n                            • Rows: Each row must have the numbers 1-9,\n                        with no repeats.\n                            • Columns: Each column must have the numbers\n                         1-9, with no repeats.\n                            • Boxes: Each 3x3 box must have the numbers 1-\n                          9, with no repeats"
+    ]
+  ],
+  "4": [
+    [
+      3,
+      "SOLVED SUDOKU\n Initialize\n 1.  Set SIZE ← 9\n 2.  Create a 2D array board[SIZE][SIZE] and initialize\n      all cells to 0\n 3.  Create a 3D array tried[SIZE][SIZE][SIZE + 1] to\n    track which numbers (1–9) have been attempted in\n   each cell\n 4.  Set row ← 0, col ← 0"
+    ],
+    [
+      4,
+      "SOLVED SUDOKU\nBegin Grid Filling Loop\nØ  WHILE row < SIZE DO:\n v     IF board[row][col] == 0 THEN:\n   o Set placed ← false\n   o REPEAT up to 9 times:\n       §        Generate num ← random integer from 1 to 9\n       §         IF tried[row][col][num] == true, CONTINUE to next\n         attempt\n       §        Set tried[row][col][num] ← true\n       §        Set valid ← true"
+    ],
+    [
+      5,
+      "SOLVED SUDOKU\n\nCheck Sudoku Constraints\nØ  Check row and column:\n vFOR i ← 0 TO SIZE - 1:\n   o IF board[row][i] == num OR board[i][col] == num, set\n       valid ← false and BREAK"
+    ],
+    [
+      6,
+      "SOLVED SUDOKU\n\nØ  Check 3×3 box:\n  vCompute boxRow ← (row / 3) * 3\n  vCompute boxCol ← (col / 3) * 3\n vFOR r ← boxRow TO boxRow + 2:\n   o FOR c ← boxCol TO boxCol + 2:\n       §         IF board[r][c] == num, set valid ← false and\n      BREAK"
+    ],
+    [
+      7,
+      "SOLVED SUDOKU\n  Place or Backtrack\n Ø     IF placed == false THEN:\n   vReset tried[row][col][1..9] ← false\n   vDO:\n     o IF col == 0 THEN:\n         §         row ← row - 1\n         §            col ← SIZE - 1\n     o ELSE:\n         §            col ← col - 1"
+    ],
+    [
+      8,
+      "SOLVED SUDOKU\n   vWHILE board[row][col] == 0\n   vSet tried[row][col][board[row][col]] ← true\n   vSet board[row][col] ← 0\n   vCONTINUE to next iteration"
+    ],
+    [
+      9,
+      "SOLVED SUDOKU\nMove Forward\nØ   IF col == SIZE - 1 THEN:\n v     row ← row + 1\n v      col ← 0\nØ   ELSE:\n v      col ← col + 1"
+    ],
+    [
+      10,
+      "SOLVED SUDOKU\nPlace or Backtrack\nØ   IF valid == true THEN:\n v     Set board[row][col] ← num\n v     Set placed ← true\n v    BREAK out of attempt loop"
+    ],
+    [
+      11,
+      "SOLVED SUDOKU\n Print Final Grid\nØ  FOR r ← 0 TO SIZE - 1:\n v    FOR c ← 0 TO SIZE - 1:\n    o PRINT board[r][c] + \" \"\nØ   PRINT newline"
+    ],
+    [
+      12,
+      "NODES"
+    ],
+    [
+      13,
+      "NODES\n\n • Nodes are the fundamental building blocks of\n many computer science data structures.\n • form the basis for\n   • linked lists\n   • stacks\n   • queues\n   • trees"
+    ],
+    [
+      14,
+      "NODES\n\n • An individual node contains data\n  and links to other nodes.\n • Each data structure adds additional\n  constraints or behavior to these\n  features to create the desired\n  structure."
+    ],
+    [
+      15,
+      "NODES\n\n • link or links within the node are\n  sometimes referred to as pointers.\n  This is because they “point” to\n  another node."
+    ],
+    [
+      16,
+      "NODES\n\n • Data structures implement nodes\n  with one or more links.\n • null denotes that you have reached\n  the end of the particular node or link\n  path you were previously following"
+    ],
+    [
+      17,
+      "NODES"
+    ],
+    [
+      18,
+      "LINKED LIST\nList is comprised of a series of nodes as shown in\nthe diagram\n• Head node is the node at the beginning of the\n   list"
+    ],
+    [
+      19,
+      "LINKED LIST\n\n• Each node contains data and a link (or\n  pointer) to the next node in the list\n• List is terminated when a node’s link is null.\n  This is called the tail node"
+    ],
+    [
+      20,
+      "LINKED LIST\nCommon operations on a linked list may include\n   • adding nodes\n   • removing nodes\n   • finding a node\n   • traversing (or traveling through) the linked list"
+    ],
+    [
+      21,
+      "NODES\n • for some DS, nodes may only be linked from a single\n  other node.\n • If you inadvertently remove the single link to a node, that\n  node’s data and any linked nodes could be “lost” to your\n  application. When this happens to a node, it is called an\n  orphaned node."
+    ],
+    [
+      22,
+      "LINKED LIST\n Lists are naturally one way only but it can be\n bidirectional\n\nWho can give an example of a bidirectional link?"
+    ],
+    [
+      23,
+      "LINKED LIST\nAdding a new node\n Adding a new node to the beginning of the list\n requires you to link your new node to the current\nhead node.\n\n This way, you maintain your connection with the\n following nodes in the list."
+    ],
+    [
+      24,
+      "LINKED LIST\n Removing a node\n\n  If you accidentally remove the single link to a node, that\n node’s data and any following nodes could be lost to\n your application, leaving you with orphaned nodes."
+    ],
+    [
+      25,
+      "LINKED LIST\n Removing a node\n To properly maintain the list when removing a node\n from the middle of a linked list, you need to be sure to\n adjust the link on the previous node so that it points to\n the following node."
+    ],
+    [
+      26,
+      "LINKED LIST\n Removing a node\n Depending on the language, nodes which are not\n referenced are removed automatically. “Removing” a\n node is equivalent to removing all references to the\n node."
+    ],
+    [
+      27,
+      "LINKED LIST"
+    ],
+    [
+      28,
+      "LINKED LIST\nCommon operations:\n doubly linked list\n • adding nodes to both\n  ends of the list\n • removing nodes from\n  both ends of the list"
+    ],
+    [
+      29,
+      "LINKED LIST\nCommon operations:\n doubly linked list\n • finding, and removing, a\n  node from anywhere in\n  the list\n • traversing (or traveling\n  through) the list"
+    ],
+    [
+      30,
+      "LINKED LIST\n Adding to the List\n\n  In a doubly linked list, adding to the list is a little\n  complicated as we have to keep track of and set\n  the node’s previous pointer as well as update the\n  tail of the list if necessary."
+    ],
+    [
+      31,
+      "LINKED LIST\n Adding to the Head\n  • check if there is a current head to the list\n  •  if there isn’t, then the list is empty\n     • make new node both the head and tail of the\n        list\n     • set both pointers to null"
+    ],
+    [
+      32,
+      "LINKED LIST\n Adding to the Head\n  •  If list is not empty\n     • Set the current head’s previous pointer to our\n    new head\n     • Set the new head’s next pointer to the current\n     head\n     • Set the new head’s previous pointer to null"
+    ],
+    [
+      33,
+      "LINKED LIST\nAdding to the Tail\n•  If the list is not empty\n   • Set the current tail’s next pointer to the new\n      tail\n   • Set the new tail’s previous pointer to the\n    current tail\n   • Set the new tail’s next pointer to null"
+    ],
+    [
+      34,
+      "LINKED LIST"
+    ],
+    [
+      35,
+      "LINKED LIST\n Adding to the Tail\n  •  If list is empty\n     • we make the new node the head and tail of\n     the list\n     • set the pointers to null"
+    ],
+    [
+      36,
+      "LINKED LIST"
+    ],
+    [
+      37,
+      "LINKED LIST"
+    ],
+    [
+      38,
+      "LINKED LIST\n Removing the Head\n  •  update the pointer at the beginning of the list\n  •  set the previous pointer of the new head (the\n    element directly after the current head) to null\n  •  update the head property of the list\n\n   If the head was also the tail, the tail removal\n process will occur as well."
+    ],
+    [
+      39,
+      "LINKED LIST"
+    ],
+    [
+      40,
+      "LINKED LIST\nRemoving from the Middle of the List\n• no need to change the pointers of the removed\n  node\n   •  updating the pointers of its neighboring nodes\n      will remove it from the list\n\nIf no nodes in the list are pointing to it, the node is\norphaned."
+    ],
+    [
+      41,
+      "LINKED LIST"
+    ],
+    [
+      42,
+      "LINKED LIST\n Removing the Tail\n update the pointer at the end of the list\n  set the next pointer of the new tail (the element\n  directly before the tail) to null\n update the tail property of the list\n\n   If the tail was also the head, the head removal\n process will occur as well."
+    ],
+    [
+      43,
+      "LINKED LIST"
+    ],
+    [
+      44,
+      "LINKED LIST\nRemoving from the Middle of the List\n • set the removed node’s preceding node’s next\n   pointer to its following node\n • set the removed node’s following node’s previous\n   pointer to its preceding node"
+    ],
+    [
+      45,
+      "Translate to Java\n\n CLASS CircularLinkedList               METHOD display(cycles)\n   Node head                            SET current = head\n   Node tail                              SET count = 0\n                                       WHILE current IS NOT null AND\n  METHOD append(inputData)                       count< cycles\n    CREATE newNode WITH inputData            PRINT current.data\n      IF head IS null                          SET current = current.next\n      SET head = newNode                   INCREMENT count\n      SET tail = newNode                 END WHILE\n      SET newNode.next = head           END METHOD\n    ELSE                         END CLASS\n      SET tail.next = newNode\n      SET tail = newNode\n      SET tail.next = head\n    END IF\n  END METHOD"
+    ],
+    [
+      46,
+      "Group Activity\n     Create a Java Program that will solve this\nYou wake up in the Squid Game arena. Around you stand 456\nplayers, each wearing a numbered tracksuit from 1 to 456. The\nmasked Game Master announces the next challenge:\n“This is a game of survival. You will stand in a circle. Starting\nfrom Player 1, every 75th player will be eliminated. The circle\ncloses in after each elimination. The last one standing wins\n₩45.6 billion.”\n\nYou glance around. The countdown begins. You have one\nchance to choose your number before the game starts."
+    ]
+  ],
+  "5": [
+    [
+      3,
+      "LIFO\n\nLIFO (Last-In, First-Out) is a method used in data\nstructures and inventory accounting where the last item\nadded is the first one removed.\n• Common in stack-based operations (e.g., undo\n  features, browser history)\n• Opposite of FIFO (First-In, First-Out)"
+    ],
+    [
+      4,
+      "LIFO\n\nImagine a stack of plates in a cafeteria:\n• You add clean plates to the top of the stack.\n• When someone needs a plate, they take the one\n  from the top.\n• The last plate added is the first one taken"
+    ],
+    [
+      5,
+      "LIFO\n\nUsed in stack data structures, where operations follow\nthis order:\n•   Push → Add item to the top\n•   Pop → Remove item from the top"
+    ],
+    [
+      6,
+      "LIFO\n\nIn accounting, LIFO assumes:\n•   The most recent inventory is sold first.\n•   Older inventory remains on the books.\n\nUseful during inflation to reduce taxable income (higher\ncost of goods sold)."
+    ],
+    [
+      7,
+      "STACKS\n\nThe stack data structure has three main methods:\n•  push() method adds a node to the top of the stack\n•  pop() method removes a node from the top of the stack\n•  peek() method returns the value of the top node without\n  removing it from the stack."
+    ],
+    [
+      8,
+      "LIFO\n\nStack<String> books = new Stack<>();\nbooks.push(\"Book A\");\nbooks.push(\"Book B\");\nbooks.pop(); // Removes \"Book B\""
+    ],
+    [
+      9,
+      "STACKS\n\n•  Every stack has a size that determines\n  how many nodes it can accommodate\n•  Attempting to push a node in a full stack\n   will result in a stack overflow\n• program may crash due to a stack\n   overflow.\n\nA stack is illustrated in the given image. stackA.push(xg) will\nresult in a stack overflow since the stack is already full."
+    ],
+    [
+      10,
+      "STACKS\n\nStack is a data structure that follows\n•  last in, first out (LIFO) protocol.\n• The latest node added to a stack is the node which is\n   eligible to be removed first.\n•  If three nodes (a, b and, c) are added to a stack in\n   this exact same order, the node c must be removed\n   first.\n• The only way to remove or return the value of the\n  node a is by removing the nodes c and b."
+    ],
+    [
+      11,
+      "SIMPLE STACKS\n\n1. Define the Class\n   • Name it SimpleStack.\n   • Declare:\n    o   maxSize → maximum number of elements\n    o   stackArray → array to hold stack items\n    o   top → index of the current top item"
+    ],
+    [
+      12,
+      "SIMPLE STACKS\n\n2. Create the Constructor\n   • Accept size as a parameter.\n   •  Initialize stackArray with the given size.\n   • Set top = -1 to indicate an empty stack.\n3. Implement push(int value)\n   • Check if the stack is full (top < maxSize - 1).\n   •  If not, increment top and insert value at\n  stackArray[top].\n   •  If full, print a warning message."
+    ],
+    [
+      13,
+      "SIMPLE STACKS\n\n4. Implement pop()\n   • Check if the stack is empty (top == -1).\n   •  If not, return stackArray[top] and decrement top.\n   •  If empty, print a warning and return a sentinel value\n   (e.g., -1).\n5. Implement peek()\n   • Return the item at stackArray[top] without removing\n    it.\n   •  If empty, print a message and return -1."
+    ],
+    [
+      14,
+      "SIMPLE STACKS\n\n6. Implement isEmpty()\n   • Return true if top == -1, else false.\n7. Test Your Stack\n   •  In the main() method:\n    o   Create a SimpleStack with size 5.\n    o   Push a few values.\n    o    Print the top item.\n    o  Pop an item and print the result.\n    o   Check if the stack is empty."
+    ],
+    [
+      15,
+      "FIFO\n\nFIFO (First-In, First-Out) is a method where the first\nitem added is the first one removed.\n• Common in queues, inventory systems, and\n  scheduling\n• Ensures fairness and chronological order"
+    ],
+    [
+      16,
+      "FIFO\n\nUsed in queue data structures, where operations follow this\norder:\n•   Enqueue → Add item to the end\n•   Dequeue → Remove item from the front"
+    ],
+    [
+      17,
+      "FIFO\n\nImagine a line of customers at a grocery store:\n• The first person to line up is the first to be served.\n• New arrivals wait their turn behind earlier ones.\n\nThis is FIFO in action."
+    ],
+    [
+      18,
+      "FIFO\n\nIn accounting, FIFO assumes:\n•   The oldest inventory is sold first.\n•   Newer inventory remains on the books.\n\nUseful when prices are rising to show higher profits (lower\ncost of goods sold)."
+    ],
+    [
+      19,
+      "FIFO\n\nQueue<String> tasks = new LinkedList<>();\ntasks.add(\"Task A\");\ntasks.add(\"Task B\");\ntasks.remove(); // Removes \"Task A\""
+    ],
+    [
+      20,
+      "QUEUE\n\nA queue is a data structure composed of nodes,\nwhich follows a first in, first out (FIFO) protocol."
+    ],
+    [
+      21,
+      "QUEUE\n\nMain Methods\n• Enqueue - adds a node to the back of the queue\n• Dequeue - removes node at the front of the queue\n• Peek - returns value of node at the front of the queue,\n  without removing it"
+    ],
+    [
+      22,
+      "QUEUE\n\nQueues can be implemented using a linked list as the\nunderlying data structure.\n\nThe front of the queue is\nequivalent  to  the head\nnode of a linked list and\nthe back of the queue is\nequivalent   to  the   tail\nnode."
+    ],
+    [
+      23,
+      "QUEUE\n\nSince operations are only allowed\naffecting the  front  or back  of the\nqueue, any traversal or modification\nto other nodes within the linked list is\ndisallowed. Since both ends of the\nqueue  must  be   accessible,  a\nreference to both the head node and\nthe tail node must be maintained."
+    ],
+    [
+      24,
+      "QUEUE\n\nOne  last  constraint  that may be\nplaced on a queue is its length. If a\nqueue has a limit on the amount of\ndata that can be placed into  it,  it is\nconsidered a bounded queue."
+    ],
+    [
+      25,
+      "QUEUE\n\nSimilar  to  stacks,  attempting  to\nenqueue data onto an already  full\nqueue will result in a queue overflow.\nIf you attempt to dequeue data from\nan empty queue,  it  will result in a\nqueue underflow."
+    ],
+    [
+      26,
+      "SIMPLE QUEUE\n\n1. Define the Class\n   • Name it SimpleQueue.\n   • Declare:\n    o   maxSize → maximum number of elements\n    o   queueArray → array to hold queue items\n    o    front → index of the front item\n    o   rear → index of the last item\n    o   itemCount → number of items in the queue"
+    ],
+    [
+      27,
+      "SIMPLE QUEUE\n\n2. Create the Constructor\n   • Accept size as a parameter.\n   •  Initialize queueArray with the given size.\n   • Set front = 0, rear = -1, and itemCount = 0.\n3. Implement enqueue(int value)\n   • Check if the queue is full (itemCount < maxSize).\n   •  If not, increment rear (circularly) and insert value.\n   •  If full, print a warning message."
+    ],
+    [
+      28,
+      "SIMPLE QUEUE\n\n4. Implement dequeue()\n   • Check if the queue is empty (itemCount == 0).\n   •  If not, return queueArray[front], increment front\n   (circularly), and decrement itemCount.\n   •  If empty, print a warning and return a sentinel value\n   (e.g., -1)."
+    ],
+    [
+      29,
+      "SIMPLE QUEUE\n\n5. Implement peek()\n   • Return the item at queueArray[front] without\n  removing it.\n   •  If empty, print a message and return -1.\n6. Implement isEmpty()\n   • Return true if itemCount == 0, else false."
+    ],
+    [
+      30,
+      "SIMPLE QUEUE\n\n7. Test Your Queue\n   •  In the main() method:\n    o   Create a SimpleQueue with size 5.\n    o   Enqueue a few values.\n    o    Print the front item.\n    o  Dequeue an item and print the result.\n    o   Check if the queue is empty."
+    ],
+    [
+      31,
+      "GROUP ACTIVITY\n                    Turn In by 12:30 PM\n            email to prof.francis.franco@gmail.com\n       subject: SY2627 BSIT DSA Palindrome Groupname"
+    ],
+    [
+      32,
+      "Create a Java program that checks whether a given input is a\npalindrome.\n• A palindrome is a word, sentence, verse, or number that\n  reads the same backward or forward\n•   It should use stack data structure\n•  Discuss within the group\n• Submit the *.java file"
+    ],
+    [
+      33,
+      "Ø  A function that calls itself\nØ   Solves a problem by breaking it into smaller\n  subproblems\nØ  Each recursive call works on a simpler version of the\n   original problem"
+    ],
+    [
+      34,
+      "Ø  Base Case: Stops the recursion\nØ  Recursive Case: Continues the recursion\nØ  Every recursive function must have a base case"
+    ],
+    [
+      35,
+      "Ø   Recursive calls form a tree-like structure\nØ  Each call creates a new branch\nØ  Helps in understanding flow and depth"
+    ],
+    [
+      36,
+      "Ø   Factorial (n!)\nØ   Fibonacci sequence\nØ  Sum of digits\nØ  Power of a number"
+    ],
+    [
+      37,
+      "Ø   Elegant solutions for complex problems\nØ  Reduces code length\nØ   Natural fit for divide-and-conquer problems"
+    ],
+    [
+      38,
+      "Ø  Recursive: uses function calls\nØ   Iterative: uses loops\nØ  Recursion can be less efficient but more readable"
+    ],
+    [
+      39,
+      "Ø   Missing base case → infinite loop\nØ   Stack overflow from deep recursion\nØ  Harder to debug than loops"
+    ],
+    [
+      40,
+      "Ø   Recursive call is the last operation\nØ  Can be optimized by compilers\nØ  Reduces stack usage"
+    ],
+    [
+      41,
+      "Ø  Each method call creates a stack frame\nØ   Stores parameters, local variables, return address\nØ  Frames are removed when the method returns"
+    ],
+    [
+      42,
+      "Ø  Implement a recursive method to calculate factorial\nØ  Use base case: factorial(0) = 1\nØ  Use recursive case: factorial(n) = n × factorial(n - 1)\nØ   Test with input 5"
+    ],
+    [
+      43,
+      "public class Factorial {\n     public static int factorial(int n) {\n                  if (n == 0) return 1; // base case\n          return n * factorial(n - 1); // recursive case\n       }\n\n     public static void main(String[] args) {\n          System.out.println(\"Factorial of 5 is: \" + factorial(5));\n       }\n}"
+    ],
+    [
+      44,
+      "Ø  A memory structure that tracks active method calls\nØ  Operates in Last-In, First-Out (LIFO) order\nØ   Essential for recursion and nested calls"
+    ],
+    [
+      45,
+      "Ø  Happens when too many calls are pushed\nØ  Common in deep or infinite recursion\nØ  Java throws StackOverflowError"
+    ],
+    [
+      46,
+      "Ø   Follow the order of calls and returns\nØ  Helps debug and understand flow\nØ  Use print statements to visualize"
+    ],
+    [
+      47,
+      "Ø  Each call consumes memory\nØ  Deep recursion = high memory usage\nØ   Iterative solutions often use less memory"
+    ],
+    [
+      48,
+      "Ø  Depth = number of active calls\nØ  Deeper recursion = more stack frames\nØ   Limit depth to avoid overflow"
+    ],
+    [
+      49,
+      "Ø  Implement a recursive Fibonacci method\nØ  Add print statements to trace each call\nØ  Observe how the stack grows and shrinks\nØ   Test with input 4"
+    ],
+    [
+      50,
+      "public class FibonacciTrace {\n   public static int fibonacci(int n) {\n      System.out.println(\"Calling fibonacci(\" + n + \")\");\n          if (n <= 1)\n           return n;\n       int result = fibonacci(n - 1) + fibonacci(n - 2);\n      System.out.println(\"Returning fibonacci(\" + n + \") = \" + result);\n      return result;\n    }\n\n   public static void main(String[] args) {\n      System.out.println(\"Fibonacci of 4 is: \" + fibonacci(4));\n    }\n}"
+    ],
+    [
+      51,
+      "Ø  Use String[] args\nØ  Ask user for data"
+    ],
+    [
+      52,
+      "Ø  A recursive algorithmic technique\nØ   Explores all possible solutions\nØ  Abandons paths that lead to failure"
+    ],
+    [
+      53,
+      "Ø   Try → Check → Recurse → Undo\nØ   Builds solution incrementally\nØ  Stops when a valid solution is found"
+    ],
+    [
+      54,
+      "Ø  Each node = a decision point\nØ  Branches = possible choices\nØ   Pruning = cutting off invalid paths"
+    ],
+    [
+      55,
+      "Ø  Base Case: Valid solution found\nØ   Pruning: Skip paths that violate constraints\nØ  Improves efficiency"
+    ],
+    [
+      56,
+      "Ø  Sudoku Solver\nØ  Maze Navigation\nØ  Word Search"
+    ],
+    [
+      57,
+      "Ø   Brute force tries everything blindly\nØ   Backtracking eliminates bad paths early\nØ  More efficient and elegant"
+    ],
+    [
+      58,
+      "Ø  Undo changes after recursive call\nØ  Ensures clean state for next attempt\nØ   Critical for correctness"
+    ],
+    [
+      59,
+      "Ø  Use constraints to prune early\nØ   Track visited states\nØ  Combine with memoization if needed"
+    ],
+    [
+      60,
+      "GROUP ASSIGNMENT\n                 Turn In by September 19, 2026 11:59 PM\n                  email to prof.francis.franco@gmail.com\n               subject: SY2627 BSIT DSA Crossword Groupname"
+    ],
+    [
+      61,
+      "ASSIGNMENT\nBuild a Java program that searches for a word in a 2D character grid using\nrecursion and backtracking. The program must trace its recursive calls to\nvisualize the call stack and demonstrate how decisions are made and\nundone.\n                              Deliverablesü  Uses recursive logic to\n                                          •  Completed *.java program with   explore each character in\n                            comments   the grid\n                                          • A short write-up (1–2 pages)ü   Traces the call stack using\n                                     explaining:   print statements\n                                              • How recursion is usedü   Applies backtracking to undo\n                                              •  What the call stack looks like during   invalid paths\n                                    execution\n                                              • How backtracking is implemented"
+    ],
+    [
+      62,
+      "Find Java, Code and Typhoon.\nStack is already given\n\nJ  A  V  A  X  Y  Z  L  M  N\nB  C  O  D  E  P  Q  R  S  T\nU  V  W  X  Y  Z  A  B  C  D\nE  F  G  H  I  J  K  L  T  N\nO  P  Q  R  S  T  U  V  Y  X\nY  Z  A  B  C  D  E  F  P  H\nI  J  K  L  M  N  O  P  H  R\nS  T  A  C  K  U  V  W  O  Y\nZ  A  B  C  D  E  F  G  O  I\nJ  K  L  M  N  O  P  Q  N  S"
+    ]
+  ],
+  "6": [
+    [
+      4,
+      "SEARCHING ALGORITHMS\n\n Ø    Searching algorithms help locate specific\n    data within a dataset.\n Ø   Used in databases, file systems, and\n    programming tasks.\n Ø     Efficiency depends on data structure and\n    algorithm choice"
+    ],
+    [
+      5,
+      "LINEAR SEARCH\n\n Ø    Searching in small or unsorted datasets.\n Ø    Quick checks in user input or form validation.\n Ø   When simplicity is more important than\n    performance."
+    ],
+    [
+      6,
+      "LINEAR SEARCH\n\n Ø     Definition: Checks each element one by\n    one until a match is found.\n Ø    Best for: Unsorted or small datasets.\n Ø    Time Complexity:\n  v       Best: O(1)\n  v       Average: O(n/2) ≈ O(n)\n  v      Worst: O(n)\n\n Ø    Example: Searching for “7” in [3, 5, 7, 9]"
+    ],
+    [
+      7,
+      "BINARY SEARCH\n\n Ø     Definition: Divides sorted array in half\n    repeatedly to find the target.\n Ø    Requirement: Data must be sorted.\n Ø    Time Complexity:\n  v       Best: O(1)\n  v      Worst: O(log n)\n\n Ø    Example: Searching for “7” in\n        [1, 3, 5, 7, 9]"
+    ],
+    [
+      8,
+      "BINARY SEARCH\n  Binary search operates on the principle of divide and\n  conquer. Here's the step-by-step process:\n  1.  Start with two pointers\n    a. Low (beginning of the list)\n    b.  High (end of the list)\n  2.  Find the middle index\n    a. mid = (low + high) / 2"
+    ],
+    [
+      9,
+      "BINARY SEARCH\n  3. Compare the middle element with the target\n    a.   If it matches → target found.\n    b.   If target < middle → search the left half.\n     c.   If target > middle → search the right half.\n\n  4. Repeat until the target is found or the search space\n       is empty."
+    ],
+    [
+      10,
+      "BINARY SEARCH\n   When to Use Binary Search ✅\n Ø     Data is sorted.\n Ø     Performance is critical.\n Ø    You need fast lookups in large datasets."
+    ],
+    [
+      11,
+      "BINARY SEARCH\n   When to Avoid It ❌\n Ø     Data is unsorted (requires sorting first).\n Ø     Small datasets where linear search is simpler."
+    ],
+    [
+      12,
+      "BINARY SEARCH\n Real-World Applications\n Ø     Searching in dictionaries or phone books.\n Ø     Database indexing.\n Ø      Efficient lookup in sorted arrays or files."
+    ],
+    [
+      13,
+      "INTERPOLATION SEARCH\n\n Ø    Estimates position using the value of the target.\n Ø    Best for: Uniformly distributed sorted data.\n Ø    Time Complexity:\n  v      Average: O(log log n)\n  v      Worst: O(n)"
+    ],
+    [
+      14,
+      "INTERPOLATION SEARCH\n\n Formula\n pos =   low +\n            [(target - arr[low]) ×\n           (high - low)] /\n            (arr[high] - arr[low])"
+    ],
+    [
+      15,
+      "INTERPOLATION SEARCH\n\n Formula\n pos =   low +\n            [(target - arr[low]) ×\n           (high - low)] /\n            (arr[high] - arr[low])"
+    ],
+    [
+      16,
+      "INTERPOLATION SEARCH\n\n Search for 33 in [10, 20, 30, 40, 50]:\n pos =  0 + [(33 - 10) × (4 - 0)] / (50 - 10)\n     =   0 + [23 × 4] / 40\n     =   2.3 → round to index 2"
+    ],
+    [
+      17,
+      "INTERPOLATION SEARCH\n\n Ø    Data is sorted and uniformly distributed.\n Ø    You want faster performance than binary search.\n Ø    Examples\n  ü      searching in sensor logs\n  ü      evenly spaced timestamps\n  ü       or numeric ranges."
+    ],
+    [
+      18,
+      "INTERPOLATION SEARCH\n\n   When to Avoid It ❌\n Ø    Data is not uniformly distributed.\n Ø    Values are clustered or skewed.\n Ø    The formula may produce inaccurate positions,\n    leading to inefficiency."
+    ],
+    [
+      19,
+      "EXPONENTIAL SEARCH\n\n  Finds range where target may exist, then applies binary\n  search.\n Unbounded or infinite-sized sorted arrays.\n Time Complexity:\n  O(log n)\n  Steps\n  1.   Find range by doubling index\n  2.   Apply binary search in that range"
+    ],
+    [
+      20,
+      "EXPONENTIAL SEARCH\n\n  1.  Let’s say we want to search for 45 in [10, 20, 35,\n     40, 45, 55, 60, 70, 75, 90]:\n  2.  Start at index 1.\n  3.  Double the index until the value at that index is\n     greater than or equal to the target:\n    a. Check index 1 → 20\n    b. Check index 2 → 35\n     c. Check index 4 → 40\n    d. Check index 8 → 75 → stop"
+    ],
+    [
+      21,
+      "EXPONENTIAL SEARCH\n\n  4. Now apply binary search between index 4 and 8.\n       [45, 55, 60, 70, 75]\n  5.  This approach narrows the search space quickly,\n     especially when the target is far from the\n     beginning."
+    ],
+    [
+      22,
+      "EXPONENTIAL SEARCH\n\n   When to Use Exponential Search ✅\n Ø     Searching in sorted arrays with unknown or very\n     large size.\n Ø     Useful in streaming data, file systems, or external\n    memory where random access is expensive."
+    ],
+    [
+      23,
+      "EXPONENTIAL SEARCH\n\n   When to Avoid It ❌\n Ø    Data is unsorted.\n Ø     Array size is small (binary search\n     alone is sufficient)."
+    ],
+    [
+      24,
+      "EXPONENTIAL SEARCH\n\n Real-World Applications\n Ø     Searching in log files, sensor data,\n     or cloud storage.\n Ø      Efficient lookups in distributed\n     systems or networked databases."
+    ],
+    [
+      25,
+      "Write a Java program to search for a number in an\nunsorted array using linear search.\nChallenge: Count how many comparisons were made.\npublic class LinearSearch {\n    public static int search(int[] arr, int target) {\n         for (int i = 0; i < arr.length; i++) {\n             if (arr[i] == target) return i;\n         }\n         return -1;\n    }\n}"
+    ],
+    [
+      26,
+      "Implement binary search on a sorted array.\nChallenge: Track the number of recursive calls made.\npublic class BinarySearch {\n     public static int search(int[] arr, int target) {\n          int low = 0, high = arr.length - 1;\n     while (low <= high) {\n               int mid = (low + high) / 2;\n               if (arr[mid] == target) return mid;\n               else if (arr[mid] < target) low = mid + 1;\n               else high = mid - 1;\n          }\n     return -1;\n     }\n}"
+    ],
+    [
+      27,
+      "1. Write a Java program to search for a number in a uniformly\ndistributed sorted array using interpolation search.\nChallenge: Handle edge cases where division by zero might\noccur.\n\n2. Implement exponential search for a sorted array.\nChallenge: Integrate binary search as a helper method."
+    ],
+    [
+      28,
+      "public class ExponentialSearch {\n    public static int search(int[] arr, int target) {\n        if (arr[0] == target) return 0;\n        int i = 1;\n        while (i < arr.length && arr[i] <= target) i *= 2;\n        return binarySearch(arr, i / 2, Math.min(i, arr.length - 1), target);\n    }\n    private static int binarySearch(int[] arr, int low, int high, int target) {\n        while (low <= high) {\n            int mid = (low + high) / 2;\n            if (arr[mid] == target) return mid;\n            else if (arr[mid] < target) low = mid + 1;\n            else high = mid - 1;\n        }\n        return -1;\n    }\n}"
+    ],
+    [
+      29,
+      "public class InterpolationSearch {\n   public static int search(int[] arr, int target) {\n     int low = 0, high = arr.length - 1;\n     while (low <= high && target >= arr[low] &&\n            target <= arr[high]) {\n                    int pos = low + ((target - arr[low]) *\n                    (high - low)) / arr[high] - arr[low]);\n            if (arr[pos] == target) return pos;\n            else if (arr[pos] < target) low = pos + 1;\n     else high = pos - 1;        }\n   return -1;    }}"
+    ],
+    [
+      30,
+      "The Registrar’s Vault is sealed. Four locks guard it, each requiring a different search spell.\nYou are given arrays of student IDs. Each lock hides a target ID revealed only through a riddle.\nSolve all four locks with Java search algorithms, and the vault will open.\n\n                                                         [5, 10, 20, 40, 80, 160, 320, 640, 1280]   [101, 203, 305, 407, 509, 611, 713,\n                                                             “I leap in bounds, doubling fast.   815, 917]\n                                        Then narrow down, until the last.    “I split the path, half and half.\n                                                                                 I am the ID that is 16 × 20.”     I choose the side, and cut the graph.\n     I am the ID equal to 600 + 11.”\n                                        [1000, 2000, 3000, 4000, 5000,\n                                      6000, 7000, 8000, 9000] [12, 23, 34, 45, 56, 67, 78, 89, 90]                                                   “I guess the spot where numbers lie. “Step by step, you’’ walk the line.                                                                    I jump ahead, and rarely try. From start to end, the answer you’ll                                                                    I am the seventh element in the find.                                              array.”  I am the number that comes right\n after 55.”"
+    ]
+  ],
+  "7": [
+    [
+      3,
+      "SORTING\nALGORITHMS"
+    ],
+    [
+      4,
+      "INTRODUCTION\n ➢Importance of Sorting\n   ❑ordering data for efficient searching, merging, and\n      processing\n ➢Common use cases\n   ❑databases, search engines, analytics, real-time\n      applications\n ➢Classification\n   ❑comparison-based vs. non-comparison-based\n   ❑in-place vs. not in-place\n   ❑stable vs. unstable sorting"
+    ],
+    [
+      5,
+      "INTRODUCTION\n ➢Educational value\n   ❑foundational topic in algorithm and data structure courses.\n ➢Six Major Sorting Algorithms\n   ❑Bubble\n   ❑Selection\n   ❑Insertion\n   ❑Merge\n   ❑Quick\n  ❑Heap Sort"
+    ],
+    [
+      6,
+      "WHY SORTING MATTERS\n\n➢Efficient data organization impacts\n  ❑database indexing\n  ❑e-commerce\n   ❑computational tasks\n➢Enables optimized searching\n  ❑ merging\n  ❑removal of duplicates"
+    ],
+    [
+      7,
+      "WHY SORTING MATTERS\n\n➢Everyday uses\n  ❑online shopping (sorted products)\n   ❑social media (personalized feeds)\n  ❑GPS routing (distance sorting)"
+    ],
+    [
+      8,
+      "BUBBLE SORT  01     02  SELECTION SORT\n\n                   SORTING\nHEAP SORT  06  ALGORITHMS 03  INSERTION SORT\n\n               05     04  QUICK SORT            MERGE SORT"
+    ],
+    [
+      9,
+      "SIMPLE (O(n²))     EFFICIENT (O(n log n))\n\n•Bubble             •Merge\n•Selection             •Quick\n•Insertion           •Heap"
+    ],
+    [
+      10,
+      "Average                 Space\n Algorithm   Best Case              Worst Case                  Stable      In-place\n                          Case                 Complexity\n\nBubble Sort     O(n)        O(n²)        O(n²)        O(1)         Yes          Yes\n\n Selection\n                O(n²)        O(n²)        O(n²)        O(1)       No          Yes\n    Sort\n\n Insertion\n               O(n)        O(n²)        O(n²)        O(1)         Yes          Yes\n    Sort\n\nMerge Sort  O(n log n)   O(n log n)   O(n log n)      O(n)         Yes       No\n\n Quick Sort   O(n log n)   O(n log n)      O(n²)      O(log n)      No          Yes\n\n Heap Sort   O(n log n)   O(n log n)   O(n log n)      O(1)       No          Yes"
+    ],
+    [
+      11,
+      "BUBBLE SORT\n\n ➢Repeatedly steps through the\n      list\n   ➢compares adjacent items\n   ➢swaps if they are in the\n     wrong order\n ➢Each pass moves (\"bubbles\")\n    the largest unsorted value to\n     its correct position at the end  ➢Best for small or nearly\n ➢Continues until no swaps are      sorted datasets\n   needed"
+    ],
+    [
+      12,
+      "BUBBLE SORT"
+    ],
+    [
+      13,
+      "SELECTION SORT\n                       ➢Repeatedly selects the\n                         minimum (or maximum)➢Best for small lists\n                            element from the unsorted part  when write/minimum\n                          and places it at the beginning  swaps matter\n                   ➢Swaps the found minimum\n                                with the first unsorted element\n                                     for each pass.\n                   ➢Makes exactly n-1 swaps\n                               (minimizing write operations)"
+    ],
+    [
+      14,
+      "SELECTION SORT\n\n1. Start with an array of numbers.\n2. Find the length of the array (n).\n3. For each position i from the first element up to the second to last\n   element:\n   a) Assume the current position i is the smallest (minIndex = i).\n   b) Look at every element to the right of i (from j = i + 1 to n - 1).\n   c)  If any element is smaller than the one at minIndex, update\n     minIndex to that position.\n4. After checking all elements to the right, swap the element at i with the\n   element at minIndex.\n5. Repeat until all positions have been checked.\n6. The array is now sorted in ascending order.\n7. End."
+    ],
+    [
+      15,
+      "INSERTION SORT\n\n ➢Mimics how people sort\n   cards in their hand.\n ➢Builds up a sorted portion of\n    the list by inserting the next\n   unsorted element at its\n    correct position in the sorted\n    part.\n                            ➢Adaptive: performs well on ➢Shifts larger sorted\n                                   small or nearly sorted lists   elements right to make\n                                   (O(n) best case)   space."
+    ],
+    [
+      16,
+      "INSERTION SORT\n 1. Start with an array of numbers.\n 2. Find the length of the array (n).\n 3. Begin with the second element (position i = 1) because the first\n    element is already “sorted.”\n 4. Save the current element as key.\n 5. Set j to the position just before i (j = i - 1).\n 6. While j is not less than 0 and the element at position j is greater than\n    key:\n    a) Move the element at position j one step to the right (arr[j + 1] =\n         arr[j]).\n    b) Decrease j by 1.\n 7. Place key into the correct position (arr[j + 1] = key).\n 8. Repeat steps 4–7 for every element until the array is sorted.\n 9. End."
+    ],
+    [
+      17,
+      "MERGE SORT\n➢Used for large data                           ➢Divide-and-conquer paradigm\n➢external sort (disk)                 ❑ recursively split array in\n➢systems where guaranteed                                  halves\n  performance matters                           ❑sort each half\n                       ❑merge sorted halves back\n                                   together\n                       ➢Always guarantees O(n log n)\n                                time complexity\n                          ➢Stable, not in-place (requires\n                                     auxiliary arrays)"
+    ],
+    [
+      18,
+      "MERGE SORT\n\n1. Start with an array of numbers and two positions: left and right.\n2.  If the left position is smaller than the right position:\n   a) Find the middle position by dividing the range in half.\n   b) Sort the left half of the array by calling mergeSort again using\n        left and middle.\n   c) Sort the right half of the array by calling mergeSort again using\n     middle + 1 and right.\n   d) Combine the two sorted halves by calling the merge method.\n3.  If the left position is not smaller than the right, do nothing (this\n  means the section has only one element).\n4. End."
+    ],
+    [
+      19,
+      "MERGE SORT\n1. Count how many elements are in the left half and the right half.\n2. Create two temporary arrays: one for the left half and one for the right half.\n3. Copy the elements from the original array into these two temporary arrays.\n4. Set three counters:\n   a)   i for the left array,\n   b)   j for the right array,\n    c) k for the position in the original array.\n5. Compare the elements from both temporary arrays:\n   a)  If the element in the left array is smaller or equal, place it into the original array.\n   b) Otherwise, place the element from the right array.\n    c) Move the counters forward accordingly.\n6.  If there are leftover elements in the left array, copy them into the original array.\n7.  If there are leftover elements in the right array, copy them into the original array.\n8. End."
+    ],
+    [
+      20,
+      "QUICK SORT\n\n ➢Divide-and-conquer\n   ❑pick a \"pivot\"\n    ❑partition the array so\n      items < pivot are left,\n      items > pivot are right\n   ❑recursively quicksort both\n                      ➢O(n log n) average      sides\n                           ➢O(n²) worst case ➢Highly efficient in practice\n                             ❑rare if pivot is carefully ➢Arrays.sort (Java)\n                                 chosen ➢Not stable by default.\n                              ❑e.g. randomized or\n                                      median-of-three"
+    ],
+    [
+      21,
+      "QUICK SORT\n\n 1. Start with an array of numbers, and two positions: low and high.\n 2.  If low is less than high:\n   a) Call the partition method to place the pivot element in its correct\n       position.\n   b) The partition method returns the pivot index (pi).\n    c) Recursively sort the left side of the pivot (quickSort(arr, low, pi - 1)).\n   d) Recursively sort the right side of the pivot (quickSort(arr, pi + 1,\n       high)).\n 3.  If low is not less than high, do nothing (base case: one element).\n 4. End."
+    ],
+    [
+      22,
+      "QUICK SORT\n\n 1. Choose the last element in the range (arr[high]) as the pivot.\n 2. Set i to one position before low (i = low - 1).\n 3. For each element j from low to high - 1:\n   a)  If arr[j] is less than or equal to the pivot:\n 4. Increase i by 1.\n 5. Swap the element at i with the element at j.\n 6. After the loop, swap the pivot element (arr[high]) with the element at i\n   + 1.\n 7. Return the position i + 1 as the pivot index.\n 8. End."
+    ],
+    [
+      23,
+      "HEAP SORT\n➢Good where O(n log n) with                    ➢Uses a \"heap\" (binary heap) to\n  no extra space required                                repeatedly extract the\n  ❑embedded                          maximum/minimum value\n  ❑memory-limited systems                         ➢Build a max-heap\n                             ❑extract the max element\n                             ❑rebuild the heap n times\n                       ➢Always O(n log n)\n                             ❑in-place\n                        ❑not stable."
+    ],
+    [
+      24,
+      "HEAP SORT\n\n1. Start with an array of numbers.\n2. Find the length of the array (n).\n3. Build a max heap:\n   a) For each index i from n/2 - 1 down to 0, call heapify(arr, n, i).\n4. (This ensures the largest element is at the root of the heap.)\n5. Extract elements one by one from the heap:\n   a) For each index i from n - 1 down to 1:\n6. Swap the root element (arr[0]) with the element at position i.\n7. Reduce the heap size by 1 (n = i).\n8. Call heapify(arr, i, 0) to restore the max heap property.\n9. When all elements have been extracted, the array is sorted.\n10.End."
+    ],
+    [
+      25,
+      "1. Input: array, heap size (n), and index (i).                         HEAP SORT\n2. Set largest = i.\n3. Find the left child index: left = 2 * i + 1.\n4. Find the right child index: right = 2 * i + 2.\n5.  If the left child exists (left < n) and is greater than the current largest,\n   set largest = left.\n6.  If the right child exists (right < n) and is greater than the current\n   largest, set largest = right.\n7.  If largest is not equal to i:\n8. Swap the element at i with the element at largest.\n9. Call heapify(arr, n, largest) recursively to ensure the subtree also\n   satisfies the heap property.\n10.End."
+    ],
+    [
+      26,
+      "Algorithm       Stable   Adaptive\nBubble Sort\nSelection Sort\nInsertion Sort\nMerge Sort\nQuick Sort\nHeap Sort"
+    ],
+    [
+      27,
+      "PRACTICAL USE\n➢For small datasets (n < 20)\n  ❑Insertion or Selection Sort\n➢For large datasets (n > 1000)\n  ❑Require stability: Merge Sort (or TimSort).\n  ❑In-memory, best speed: Quick Sort\n  ❑Low memory, worst-case O(n log n): Heap Sort\n  ❑Nearly sorted data: Insertion Sort\n  ❑Data on disk/external devices: Merge Sort or custom\n     external sorts\n  ❑Linked lists: Merge Sort (no random access required)"
+    ],
+    [
+      28,
+      "A. For turn-in 11:59 PM today.\nB. Subject: SY2627 BSIT2 DSA SORTING Groupname\n\nObjective: Use all sorting algorithms to sort a 1 - 100 randomized number\nRequirements\n1. Create a method first to populate an array from 1 to 100, randomized.\n2. Create a method and it’s helper for each sorting algorithm\n3. Then call it one by one in your main method.\n4. Output should be the randomized number first and then the sorted\n   number.\n5. Each sorting algorithm and result should be properly labeled."
+    ]
+  ],
+  "8": [
+    [
+      4,
+      "Introduction to Hashing and Hash Tables\n What is Hashing?\nØ   Technique for converting data (keys) into a fixed-size\n   output (hash code) via a hash function.\nØ   Enables efficient lookup, insertion, and deletion in data\n   structures such as hash tables.\n What is a Hash Table?\nØ   Data structure mapping keys to values using hashing for\n    fast access.\nØ   Supports core operations: Insert, Search, Delete in near-\n   constant time."
+    ],
+    [
+      5,
+      "Hashing Fundamentals\n   Key Terms:\n       oKey: Identifier (string, number, etc.) you want to\n          store or look up.\n      oHash Function: Maps key to an integer (hash\n          code).\n      oHash Table: Array-like data structure where each\n            slot (bucket) is indexed by the hash code.\n   Goal: Enable O(1) average-time data operations."
+    ],
+    [
+      6,
+      "Why Hash Tables? Motivation and Advantages\n    Problem with Arrays and Lists:\n           oArrays: Fast access by index, but searching by value is O(n).\n          oLinked Lists: Even slower, linear time for searching, inserting,\n              deleting.\n    Hash Table Advantages:\n          oO(1) Average-Case Operations: Lookup, Insert, Delete.\n           oEfficient Memory Use: Compared to direct addressing for\n             large key spaces.\n           oFlexible Key Types: Strings, numbers, or composite types."
+    ],
+    [
+      7,
+      "Components of Hashing and Hash Tables\n\n      Component                 Purpose\n   Key             Data item to be stored/retrieved\n    Value          The data associated with the key\n   Hash Function   Converts key to hash code\n   Hash Index       Location in the hash table derived from the\n                    hash function\n    Bucket/Slot     An array position (may hold multiple entries in\n                        chaining)"
+    ],
+    [
+      8,
+      "How Hash Tables Work: Visual Diagram\n\n             KEY\n\n                           HASH FUNCTION\n\n                                                 HASH CODE\n\n                                                                          BUCKET/SLOT IN TABLE"
+    ],
+    [
+      9,
+      "Hash Functions\n  Purpose and Qualities\nDesirable Qualities:\n   oDeterministic: Same input always gives same output.\n  oUniform Distribution: Avoid clusters—spread keys evenly.\n   oEfficient: Fast to compute.\n  oFixed Range: Output fits hash table size.\n  oMinimal Collisions: Different keys rarely hash to same slot.\n  oAvalanche Effect: Small changes in key drastically change\n   hash value."
+    ],
+    [
+      10,
+      "Types of Hash Functions\n      Common Methods\n\n  Division Method:\n     h(k) = k mod m (m = table size, often a prime).\n      oPros: Simple, fast.\n     oCons: Poor for non-uniform key distributions or\n       non-prime m."
+    ],
+    [
+      11,
+      "Types of Hash Functions\n      Common Methods\n\n   Multiplication Method:\n     h(k) =      * (kA mod      with 0 < A < 1.      ⌊m         1)⌋,\n      oPros: Works for table sizes that are powers of\n         2; less sensitive to m.\n      oCons: Selection of A is critical (e.g., Knuth’s\n        suggestion: ~0.618)."
+    ],
+    [
+      12,
+      "Types of Hash Functions\n       Common Methods\n\nMid-Square & Folding: Special cases for handling\nspecific key types (e.g., numbers, strings).\nSquare the key, then use the middle digits of the result as the\nhash value.\nBreak the key into equal-sized parts, then combine them\n(usually by addition) to form the hash value."
+    ],
+    [
+      13,
+      "Types of Hash Functions\n       Common Methods\n\nCryptographic Hashes: (SHA, MD5) Used for security,\nnot general-purpose hash tables.\n\n  Cryptographic hash functions are special one-way algorithms\n   that take any input (text, file, or data stream) and produce a\n     fixed-size “digest” that is nearly impossible to reverse or\nmanipulate. They are the backbone of modern security systems,\n ensuring data integrity, authentication, and tamper resistance."
+    ],
+    [
+      14,
+      "Types of Hash Functions\n       Common Methods\nAlgorithm    Output Size  Use Cases       Notes\n                                        Weak, broken forMD5           128-bit       Legacy checksums                                                     security use\n                           Old digital         Deprecated, vulnerableSHA-1         160-bit                              signatures          to collisions\n                         Password storage,SHA-2 (SHA-             256–512 bits   file integrity,        Strong, widely used256, SHA-512)                        SSL/TLS\n                        Modern            Resistant to new attackSHA-3         Variable                             cryptography       types\n                            Fast hashing in    Faster than SHA-2,BLAKE2      256–512 bits                          apps             secure"
+    ],
+    [
+      15,
+      "Types of Hash Functions\n       Common Methods\n\njava.security package\n• MessageDigest class\n   •  provides implementations:\n      • SHA-256\n      • SHA-512\n      • MD5"
+    ],
+    [
+      16,
+      "Division Hash Function (Integer Keys)\n\n                                     Hash Value      Bucket                             Key Table Size (m): 7                                                               ( h(k) = k \\mod 7 )     (Index)\n (prime)                               10      ( 10 \\mod 7 = 3 )    3\n Keys: 10, 21, 32, 43,                               21      ( 21 \\mod 7 = 0 )    0\n 54, 65, 76                               32      ( 32 \\mod 7 = 4 )    4\n                               43      ( 43 \\mod 7 = 1 )    1\n                               54      ( 54 \\mod 7 = 5 )    5\n                               65      ( 65 \\mod 7 = 2 )    2\n                               76      ( 76 \\mod 7 = 6 )    6"
+    ],
+    [
+      17,
+      "Hashing Strings\n Technique: Convert characters to numeric codes, mix via\n  multiplication/addition, then use modulo table size.\n   Example:\n        •  Key: \"ad\"\n        •  ASCII: 'a' = 97, 'd' = 100\n        • Hash: (97 * 31 + 100) % table_size\n Note: Weighted sums are common to avoid anagrams\n mapping to the same hash."
+    ],
+    [
+      18,
+      "Concept of Collisions\n  What is a Collision?\n     oWhen two or more keys hash to the same table index.\n  Unavoidable: Pigeonhole principle—finite table, infinite\n    possible keys.\n  Impact:\n      oDegrades lookup speed from O(1) to O(n) in worst case\n                if unresolved.\n      oMust resolve collisions to maintain efficiency."
+    ],
+    [
+      19,
+      "Hash Functions: Purpose and Qualities\n\n   Purpose: Map keys of variable type/length to\n    table indices quickly and distribute evenly."
+    ],
+    [
+      20,
+      "Collisions in a Hash Table\n\n                     Key  Hash  Slot\n    Slot 3 contains both                            cat   3        [3] → (\"cat\", ...)    \"cat\" and \"dog”\n\n                       dog  3        [3] → (\"dog\", ...)\n\n                           bat   2        [2] → (\"bat\", ...)"
+    ],
+    [
+      21,
+      "Collision Resolution\n\n  Two Main Strategies\n       Separate Chaining: Keep a secondary structure\n         (like a linked list) in each slot.\n\n     Open Addressing: Find alternative slots for\n        conflicted entries within the same array."
+    ],
+    [
+      22,
+      "Separate Chaining (Closed Addressing)\n\n  •  Mechanism\n      •  Each table slot points to a linked list (chain) of all entries with the\n     same index.\n  •  Insert\n      •  Add new (key, value) to head or tail of the chain.\n  •  Search/Delete\n      •  Scan through the chain at the hashed index for the target key.\n  •  Works well when\n      •  Table can exceed 100% full (load factor > 1)."
+    ],
+    [
+      23,
+      "Separate Chaining\n        (Closed Addressing)\nDiagram\n[0] → None\n[1] → (15,…) → (8,…)\n[2] → None\n[3] → None\n[4] → (11,…)"
+    ],
+    [
+      24,
+      "Open Addressing\n              (Closed Hashing)\n\nMechanism: All entries reside directly in the array—no secondary lists.\nOn Collision: Probe (“search”) for another open slot according to a\n scheme.\n     oLinear Probing: Step one slot forward each time.\n     oQuadratic Probing: Jump by i^2 slots (avoids clustering).\n    oDouble Hashing: Use a second hash function to compute the step\n        size.\nWorks well when: Load factor stays below ~0.7–0.8."
+    ],
+    [
+      25,
+      "Linear Probing\n              Sequence\nIdea: Step through the table\n one slot at a time if collision                         Step Key  Hash   Probe Sequence\n occurs.\nInsertion/Search: If H(k) is                          1   18    4   4\n taken, try (H(k)+1),\n                          2   14    0   0 (H(k)+2), …, wrapping\n                          3   21    0    0(x), 1 around.\n                          4    1     1    1(x), 2Delete: Mark slot as\n \"deleted\"—to maintain\n                          5   35    0    0(x), 1(x), 2(x), 3 search chain."
+    ],
+    [
+      26,
+      "Quadratic Probing\n              Sequence                                                   INDEX  KEYS   PROBE SEQUENCE\n\n                                                    0      24       Try ( i = 1 ): ( (3 + 1^2) \\mod 7 = 4 ) →\nIdea: Probe slots at quadratic                           occupied\n                                                                                  Try ( i = 2 ): ( (3 + 2^2) \\mod 7 = 0 ) →                                                 ✅  intervals from original position.                                                                              place 24 at index 0\n                                                    1Probe: H(k), H(k)+1², H(k)+2²,\n H(k)+3², ..., wrapping around.\n                                                    2\nReduces: Primary clustering,\n but can introduce “secondary           3      10         ( h(17) = 17 \\mod 7 = 3 )\n  clustering”.                                                    4      17         ( h(24) = 24 \\mod 7 = 3 )\n\n                                                    5\n\n                                                    6"
+    ],
+    [
+      27,
+      "Double Hashing\n               Sequence\n• Idea: Uses two hash functions: one for initial position, another for step\n  size.\n• Probe: H1(k) + i * H2(k), where H2(k) ≠ 0.\n• Advantages: Spreads out probes very well, minimizes clustering.\nInsert(k):\n     i = 0\n  while slot at H1(k) + i*H2(k) is occupied:                                                                Assignment: Double Hashing\n          i += 1                                                                Create  a  java  program  that   will\n  place key at computed slot\n                                                                     simulate this."
+    ],
+    [
+      28,
+      "Open Addressing\n       Comparison Table\n\n             Probe                       CacheTechnique                    Clustering Risk            Sequence                      Performance\nLinear Probing +1 sequential   High (primary)      High\nQuadratic                   +i²           Medium (secondary) MediumProbing\n               +h2(k) perDouble Hashing             Low              Lower               attempt"
+    ],
+    [
+      29,
+      "Separate Chaining vs. Open Addressing\nAspect          Separate Chaining       Open Addressing\nMemory Use      More (auxiliary lists)        Less (slots only)\nLoad Factor      Can exceed 1             Must stay < 1\nCache Behavior   Worse (linked lists)           Better (arrays)\nResizing           Easier                  Rehash all items\n                                            Requires carefulDeletion          Simple                                           marking"
+    ],
+    [
+      30,
+      "Hash Table Load Factor\n         and Resizing\n Load Factor (α): n / m (number of elements / table size)\n      oSeparate Chaining: Load factor can exceed 1, though\n       performance drops if chains get long.\n     oOpen Addressing: Maintain α < 1 (ideally below 0.7–0.8).\n Resizing (Rehashing):\n     oWhen α exceeds a threshold, allocate a larger array, recalculate\n           all hashes, and redistribute.\n     oAmortized O(1) insert: Most operations are fast; resizing is rare."
+    ],
+    [
+      31,
+      "Best Practices and\n     Common Pitfalls\nPitfall/Issue            Best Practice\nPoor Hash Functions    Use built-in or proven library hashes\nHigh Load Factor         Monitor and resize table proactively\nIgnoring Collisions       Always implement collision handling\nMutable Keys          Use only immutable, hashable keys\nBad Resize Policies      Double size on resize, rehash items\n\nWrong Slot Deletion     Mark as \"deleted\" or manage carefully"
+    ],
+    [
+      32,
+      "Practical Applications\n          of Hash Tables\nData Storage and Indexing: Database systems use hash tables\nfor indexing data (fast lookup).\nDictionaries/Maps/Sets: Core language structures in Python\n(dict), Java (HashMap), etc.\nCaching: Implementing in-memory caches for web browsers\nand servers.\nSymbol Tables: Used by compilers/interpreters to map\nidentifiers to information."
+    ],
+    [
+      33,
+      "Practical Applications\n           of Hash Tables\nPassword Storage: Store password hashes, not actual\npasswords.\nCryptography: Message authentication codes, digital signatures.\nFile Systems: Fast file block lookup via hash keys.\nNetworking: Routing tables, deduplication (e.g., network packet\nIDs).\nDuplicate Detection: Finding duplicates in data sets.\nOthers: Spam filtering (Bloom filters), load balancing, blockchains."
+    ],
+    [
+      34,
+      "Problems and Limitations\n\n •  Worst-Case Performance: Poor hash functions or intentional\n     collision attacks can degrade performance to O(n).\n • Memory Inefficiency: Open addressing must leave space unused to\n   keep load factor low.\n •  Key Immutability: Changing a key after insertion makes its location\n    unrecoverable.\n •  Security: Attackers can craft inputs to trigger collisions—motivation\n     for universal or cryptographic hashing in critical systems."
+    ],
+    [
+      35,
+      "EXERCISE\nLong ago, in a distant land, there stood thirteen towers arranged in a circle. Each\ntower could guard one magical key. The Keeper of Towers had a spell to decide\nwhere each key should live:\nBut the spell was mischievous — it sent all the keys to the same tower. The Keeper,\nwise and patient, invoked this spell:\n“If a tower is already filled, the key must walk forward to the next tower, and if the end\nis reached, it must wrap around to the beginning.”\nThe Keys\nEight enchanted keys arrived, each carved with numbers:\n5, 18, 31, 44, 57, 70, 83, 96\n\n1. How is it hashed?\n2. What rule should be used?"
+    ]
+  ],
+  "9": [
+    [
+      3,
+      "Trees & Heaps"
+    ],
+    [
+      4,
+      "Tree\n\n❖A tree is a hierarchical data structure used to organize and represent\n  data in a parent–child relationship.\n\n❖It consists of nodes, where the topmost node is called the root, and\n  every other node can have one or more child nodes.\n\n❖Data in a tree is not stored sequentially (i.e., not in a linear order).\n  Instead, it is organized across multiple levels, forming a hierarchical\n  structure. Because of this arrangement, a tree is classified as a non-\n  linear data structure."
+    ],
+    [
+      5,
+      "Binary Trees\n\n❖A binary tree is a hierarchical                           Key terms\n  structure where each node has\n  at most two children (left and                            ❖Root -The topmost node.\n  right).                              ❖Leaf - A node with no\n                                             children.\n❖Useful for representing                               ❖Height - Longest path from\n  hierarchical data, expressions,                                           root to a leaf.\n and as a foundation for more                             ❖Depth - Distance of a node\n advanced trees.                                     from the root."
+    ],
+    [
+      6,
+      "Binary Trees\n\nProperties                                 Applications\n❖Recursive nature: each\n  subtree is itself a binary tree.                              ❖Representing hierarchical\n                                     data (e.g., family trees,\n❖Max nodes at level                                        organizational charts)\n            i = 2^i.\n                           ❖Basis for advanced trees\n❖Max nodes in a tree of height                                     (BST, AVL, heaps)\n     h = 2^{h+1}-1\n                             ❖Expression evaluation in\n                                       compilers."
+    ],
+    [
+      7,
+      "Sample Binary Tree\n\nclass Node {\n    int data;\n    Node left, right;\n\n    Node(int value) {\n        data = value;\n        left = right = null;\n    }\n}"
+    ],
+    [
+      8,
+      "Sample Binary Tree\n\npublic class BinaryTree {\n    Node root;\n\n    public static void main(String[] args) {\n        BinaryTree tree = new BinaryTree();\n        tree.root = new Node(10);\n        tree.root.left = new Node(5);\n        tree.root.right = new Node(15);\n\n        System.out.println(\"Root: \" + tree.root.data);\n        System.out.println(\"Left Child: \" +\ntree.root.left.data);\n        System.out.println(\"Right Child: \" +\ntree.root.right.data);\n    }\n}"
+    ],
+    [
+      9,
+      "Binary Search Tree\n   (BST) Operations\n                           Operations\n❖A BST is a binary tree with\n                        ❖Search: Compare key with node →\n  ordering\n                            go left if smaller, right if larger.\n                            ❖Insert: Traverse until null position,\nleft child < parent < right child\n                                place new node.\n                          ❖Delete:\n                      ❖Leaf → remove directly.\n                  ❖One child → replace with child.\n                  ❖Two children → replace with\n                                   inorder successor/predecessor."
+    ],
+    [
+      10,
+      "Binary Search Tree\n   (BST) Operations\n                            Applications\nPerformance\n                             ❖Efficient searching and sorting.\n❖ Average\n      O(log n)\n                      ❖Symbol tables in compilers.\n❖ Worst-case\n     O(n)\n                      ❖Dynamic sets and dictionaries.\n     if tree degenerates into a\nlinked list"
+    ],
+    [
+      11,
+      "Sample BST\nclass BST {\n    Node root;\n\n    void insert(int key) {\n        root = insertRec(root, key);\n    }\n\n    Node insertRec(Node root, int key) {\n        if (root == null) return new Node(key);\n        if (key < root.data) root.left = insertRec(root.left,\nkey);\n        else if (key > root.data) root.right =\ninsertRec(root.right, key);\n        return root;\n    }"
+    ],
+    [
+      12,
+      "Sample BST\n    boolean search(Node root, int key) {\n        if (root == null) return false;\n        if (root.data == key) return true;\n        return key < root.data ? search(root.left, key) :\nsearch(root.right, key);\n    }\n\n    public static void main(String[] args) {\n        BST tree = new BST();\n        tree.insert(50);\n        tree.insert(30);\n        tree.insert(70);\n\n        System.out.println(\"Search 30: \" + tree.search(tree.root,\n30));\n        System.out.println(\"Search 90: \" + tree.search(tree.root,\n90));\n    }\n}"
+    ],
+    [
+      13,
+      "AVL Tree Rotations\n\n❖An AVL tree is a self-balancing BST\n\n❖Adelson-Velsky and Landis\n\n❖Balance factor = height(left subtree) – height(right subtree)\n               Must be -1, 0, or +1\n\n❖Guarantees O(log n) for search, insert, delete"
+    ],
+    [
+      14,
+      "AVL Tree Rotations\n\nRotations fix imbalance\n❖LL Rotation: Right rotation\n\n❖RR Rotation: Left rotation\n\n❖LR Rotation: Left rotation on child, then right rotation on parent\n\n❖RL Rotation: Right rotation on child, then left rotation on parent"
+    ],
+    [
+      15,
+      "AVL Tree Rotations\n\nRotations fix imbalance\n❖LL Rotation (Right Rotation)\n  ❖Occurs when a node is inserted into the left subtree of the left\n       child.\n  ❖Fix: Perform a single right rotation.\n\n❖RR Rotation (Left Rotation)\n  ❖Occurs when a node is inserted into the right subtree of the right\n       child.\n  ❖Fix: Perform a single left rotation."
+    ],
+    [
+      16,
+      "AVL Tree Rotations\n\nRotations fix imbalance\n❖LR Rotation (Left-Right Rotation)\n  ❖Occurs when a node is inserted into the right subtree of the left\n       child.\n  ❖Fix: Perform a left rotation on the child, then a right rotation on\n      the parent.\n❖RL Rotation (Right-Left Rotation)\n  ❖Occurs when a node is inserted into the left subtree of the right\n       child.\n  ❖Fix: Perform a right rotation on the child, then a left rotation on\n      the parent."
+    ],
+    [
+      17,
+      "AVL Tree Rotations\n\nLL Rotation                                LR Rotation\n   12                                       12\n                                                             11\n   / \\                                             / \\\n                                                                        / \\\n  8  18                                    8  18\n                                                             8  12\n  / \\                                             / \\\n                                                                       /    \\\n 5 11                                    5 11\n                                                            5    18\n\n                                            12\n    8                                             / \\\n    / \\                                     11 18\n  5 12                                          /\n     / \\                                   8\n   11 18                                       /\n                                         5"
+    ],
+    [
+      18,
+      "AVL Tree Rotations\n\nRR Rotation                                RL Rotation\n   12                                       12\n                                                              17\n   / \\                                             / \\\n                                                                         / \\\n  8  18                                    8  18\n                                                             12 18\n        \\                                            /\n                                                                       /\n       20                                   17\n                                                           8\n\n    18                                      12\n    / \\                                            / \\\n  12 20                                   8  17\n  /                                                    \\\n 8                                             18"
+    ],
+    [
+      19,
+      "Sample AVL\nclass AVLNode {\n    int data, height;\n    AVLNode left, right;\n    AVLNode(int value) { data = value; height = 1; }\n}"
+    ],
+    [
+      20,
+      "Sample AVL\nclass AVLTree {\n    AVLNode rightRotate(AVLNode y) {\n        AVLNode x = y.left;\n        AVLNode T2 = x.right;\n\n        // Perform rotation\n        x.right = y;\n        y.left = T2;\n\n        // Update heights\n        y.height = Math.max(height(y.left), height(y.right)) + 1;\n        x.height = Math.max(height(x.left), height(x.right)) + 1;\n\n        return x; // new root\n    }\n\n    int height(AVLNode n) { return n == null ? 0 : n.height; }\n}"
+    ],
+    [
+      21,
+      "Heap Basics\n\n❖A heap is a complete binary tree\n  ❖all levels are filled except possibly the last, which is filled from\n        left to right\n\nHeap Property\n❖Max-Heap - Every parent node is greater than or equal to its\nchildren\n\n❖Min-Heap - Every parent node is less than or equal to its children."
+    ],
+    [
+      22,
+      "Heap Basics\n\nKey Operations\n\n❖Insert - Add new element at the bottom, then “bubble up” to restore\n  heap property.\n❖Delete Root (Extract Max/Min) - Replace root with last node, then\n   “bubble down” to restore property.\n❖Heapify - Rearrange nodes to maintain heap property"
+    ],
+    [
+      23,
+      "Heap Basics\n\nComplexity\n❖Insert/Delete → O(\\log n)\n❖Find max/min → O(1)\n\nApplications\n❖Priority queues (e.g., scheduling tasks).\n❖Heap sort algorithm.\n❖Graph algorithms (like Dijkstra’s shortest path)"
+    ],
+    [
+      24,
+      "Sample Heap\nimport java.util.PriorityQueue;\n\npublic class HeapExample {\n    public static void main(String[] args) {\n        // Java's PriorityQueue is a Min-Heap by default\n        PriorityQueue<Integer> minHeap = new PriorityQueue<>();\n\n        minHeap.add(20);\n        minHeap.add(5);\n        minHeap.add(15);\n\n        System.out.println(\"Min element: \" + minHeap.peek()); // 5\n        System.out.println(\"Extract min: \" + minHeap.poll()); // 5\n        System.out.println(\"Next min: \" + minHeap.peek());    // 15\n    }\n}"
+    ]
+  ],
+  "10": [
+    [
+      3,
+      "Graphs I:\nRepresentation\n& Traversal"
+    ],
+    [
+      4,
+      "GRAPH\n➢A graph is a mathematical structure used to\n  model relationships\n ➢Nodes (Vertices) - the entities or points in the\n    graph\n ➢Edges - the connections or links between\n    those entities"
+    ],
+    [
+      5,
+      "GRAPH\n➢Used to model relationships\n  ➢social networks\n ➢maps\n  ➢computer networks"
+    ],
+    [
+      6,
+      "GRAPH\n➢Two main types\n  ➢Directed\n   ➢one-way relationships (arrows)\n  ➢Undirected\n   ➢two-way relationships (lines)"
+    ],
+    [
+      7,
+      "GRAPH\n➢Can be weighted or unweighted\n\nWeighted\n➢edges have values (distance, cost, time)\n\nUnweighted\n➢edges are equal, just connections"
+    ],
+    [
+      8,
+      "❑Adjacency Matrix & List\n❑Depth First Search (DFS)\n❑Breadth First Search (BFS)"
+    ],
+    [
+      9,
+      "Adjacency Matrix\n\n➢It’s a 2D array (size V x V) used to represent a graph\n ➢V = number of vertices (nodes).\n➢Each cell [i][j] indicates whether an edge exists\n  between vertex i and vertex j\n ➢For unweighted graphs: store 0 or 1\n ➢For weighted graphs: store the weight (e.g.,\n     distance, cost)"
+    ],
+    [
+      10,
+      "Adjacency Matrix\n\n➢Since the matrix must store information for every\n   possible pair of vertices, the size is always: O(V2)\n\n➢This holds true regardless of how many edges (E) the\n  graph actually has\n\n➢Even if the graph is sparse (few edges), the matrix still\n   reserves space for all possible connections"
+    ],
+    [
+      11,
+      "Adjacency Matrix\n\n➢Suppose we have a graph with 4 vertices (A, B, C, D)\n\n  ➢Adjacency matrix size = 4x4 = 16 cells\n\n ➢Each cell stores either 0/1 (unweighted) or a\n    number (weighted)\n\n➢If the graph only has 3 edges, the matrix still uses 16\n   cells."
+    ],
+    [
+      12,
+      "Adjacency List\n\n➢An adjacency list stores only the neighbors of each\n   vertex\n\n➢Each vertex has a list (or linked list/array) of nodes it\n  connects to\n\n➢It doesn’t reserve space for all possible pairs\n\n  ➢only for existing edges."
+    ],
+    [
+      13,
+      "Adjacency List\n\nSpace Complexity\n➢For a graph with (V) vertices and (E) edges:\n              O(V + E)\nWhy?\n➢O(V) - we need a list/array for each vertex\n➢O(E) - we store each edge once (or twice if\n   undirected)"
+    ],
+    [
+      14,
+      "Adjacency List\n\nGraph with 4 vertices (A, B, C, D) and 3 edges\n➢Edges: A—B, B—C, C—D.\n➢Adjacency List\n ▪A: B\n ▪B: A, C\n ▪C: B, D\n ▪D: C"
+    ],
+    [
+      15,
+      "Adjacency List\n\n➢Space used = 4 lists (for vertices) + 6 entries\n  (because undirected edges are stored twice)\n➢Much smaller than a 4×4 matrix (16 cells)"
+    ],
+    [
+      16,
+      "Adjacency List\n\n➢Adjacency Matrix\n   ➢Always O(V2), even if few edge\n\n➢Adjacency List\n   ➢O(V+E), scales with actual number of edges"
+    ],
+    [
+      17,
+      "Adjacency List\n\n➢Sparse graphs (few edges compared to possible\n   connections)\n  ➢adjacency list is far more memory-efficient\n\n➢Dense graphs (many edges)\n  ➢adjacency matrix may be simpler and sometimes\n     faster for edge lookups"
+    ],
+    [
+      18,
+      "Depth-First Search\n\n➢Depth-First Search (DFS) is a graph traversal\n   technique that explores one path fully before\n   backtracking to explore others\n\n➢It’s called “depth-first” because it goes as deep as\n   possible into a branch before returning to explore\n   alternative paths"
+    ],
+    [
+      19,
+      "Depth-First Search\nCore Idea of DFS\n1.  Start at a chosen source node, mark it as visited\n2.  Explore one of its neighbors, then that neighbor’s\n    neighbor, and so on\n3. When you reach a node with no unvisited neighbors,\n   backtrack to the previous node and continue\n4. Repeat until all nodes are visited\n5.  This “go deep, then backtrack” strategy is what\n   makes DFS unique"
+    ],
+    [
+      20,
+      "Depth-First Search\nHow DFS Works (Step-by-Step)\n\n1.  Initialization: Choose a starting node.\n\n2. Mark visited: Keep track of visited nodes to avoid\n    cycles."
+    ],
+    [
+      21,
+      "Depth-First Search\nHow DFS Works (Step-by-Step)\n\n3. Recursive or Stack-based exploration:\n  a. Recursive DFS calls itself on each unvisited\n      neighbor.\n  b.  Iterative DFS uses a stack to push neighbors and\n     pop them as you explore."
+    ],
+    [
+      22,
+      "Depth-First Search\nHow DFS Works (Step-by-Step)\n\n4.  Backtracking: When no unvisited neighbors remain,\n    return to the previous node.\n\n5.  Termination: Ends when all nodes are visited."
+    ],
+    [
+      23,
+      "Depth-First Search\nPractical Uses of DFS\n❑Cycle detection: Check if a graph has loops.\n❑Topological sorting: Order tasks with dependencies.\n❑Path finding: Explore possible routes in mazes or\n   puzzles.\n❑Connected components: Identify clusters in a\n   network.\n❑Game solving: Explore all possible moves deeply\n   before backtracking."
+    ],
+    [
+      24,
+      "Breadth-First Search\n\n•  Breadth-First Search (BFS) is a graph traversal\n   algorithm that explores nodes level by level, starting\n   from a source node and visiting all its immediate\n   neighbors before moving deeper\n\n•   It’s the opposite of DFS, which dives deep first"
+    ],
+    [
+      25,
+      "Breadth-First Search\n\nCore Idea of BFS\n1.  Begin at a starting node.\n2.  Visit all neighbors of that node.\n3. Then visit the neighbors of those neighbors, and so\n    on.\n4.  This continues until all reachable nodes are visited.\n5. BFS uses a queue to keep track of the order of\n    exploration."
+    ],
+    [
+      26,
+      "Breadth-First Search\n\nStep-by-Step Process\n1.   Initialize: Choose a starting node and mark it visited\n2.  Queue: Place the starting node in a queue\n3.  Explore:\n    o  Remove the front node from the queue\n    o    Visit all its unvisited neighbors\n    o  Add those neighbors to the queue\n4.  Repeat until the queue is empty"
+    ],
+    [
+      27,
+      "Breadth-First Search\n\nGraph        BFS starting at node 0:\nadjacency list    1.  Visit 0 - neighbors [1, 2]\n0: [1, 2]            2.  Next, visit 1 - neighbor [2] (already\n1: [0, 2]                visited)\n2: [0, 1, 3, 4]      3.  Next, visit 2 - neighbors [3, 4]\n3: [2]              4. Then visit 3 - neighbor [2] (already\n4: [2]                   visited)\n                    5.  Finally, visit 4\n                    6.  Order: [0, 1, 2, 3, 4]"
+    ],
+    [
+      28,
+      "Breadth-First Search\n\nTime Complexity\n       O(V+E)\n    every vertex and edge is processed once\n\nSpace Complexity\n        O(V)\n    queue + visited array"
+    ],
+    [
+      29,
+      "Breadth-First Search\nPractical Uses of BFS\n❑Shortest path in unweighted graphs: BFS\n  guarantees the shortest number of steps.\n❑Level-order traversal in trees: Used in binary trees to\n   print nodes by depth.\n❑Network broadcasting: Simulates spreading a\n  message to all users in minimum hops.\n❑Web crawling: Explore links layer by layer.\n❑AI/game search: Find minimum moves to reach a goal."
+    ],
+    [
+      30,
+      "public class GraphMatrix {\n    private int[][] matrix;\n    private int vertices;\n\n    public GraphMatrix(int vertices) {\n        this.vertices = vertices;\n        matrix = new int[vertices][vertices];\n    }\n\n    // Add edge (undirected)\n    public void addEdge(int i, int j) {\n        matrix[i][j] = 1;\n        matrix[j][i] = 1;\n    }"
+    ],
+    [
+      31,
+      "// Print adjacency matrix\npublic void printMatrix() {\n    for (int i = 0; i < vertices; i++) {\n        for (int j = 0; j < vertices; j++) {\n            System.out.print(matrix[i][j] + \" \");\n        }\n        System.out.println();\n    }\n}"
+    ],
+    [
+      32,
+      "public static void main(String[] args) {\n        GraphMatrix g = new GraphMatrix(4);\n        g.addEdge(0, 1);\n        g.addEdge(0, 2);\n        g.addEdge(1, 2);\n        g.addEdge(2, 3);\n\n        g.printMatrix();\n    }\n}"
+    ],
+    [
+      33,
+      "import java.util.*;\n\npublic class GraphList {\n    private List<List<Integer>> adjList;\n    private int vertices;\n\n    public GraphList(int vertices) {\n        this.vertices = vertices;\n        adjList = new ArrayList<>();\n        for (int i = 0; i < vertices; i++) {\n            adjList.add(new ArrayList<>());\n        }\n    }"
+    ],
+    [
+      34,
+      "// Add edge (undirected)\npublic void addEdge(int i, int j) {\n    adjList.get(i).add(j);\n    adjList.get(j).add(i);\n}\n// Print adjacency list\npublic void printList() {\n    for (int i = 0; i < vertices; i++) {\n        System.out.print(i + \": \");\n        for (int neighbor : adjList.get(i)) {\n            System.out.print(neighbor + \" \");\n        }\n        System.out.println();\n    }\n}"
+    ],
+    [
+      35,
+      "public static void main(String[] args) {\n        GraphList g = new GraphList(4);\n        g.addEdge(0, 1);\n        g.addEdge(0, 2);\n        g.addEdge(1, 2);\n        g.addEdge(2, 3);\n\n        g.printList();\n    }\n}"
+    ],
+    [
+      36,
+      "import java.util.*;\n\npublic class DFSEdgeList {\n    private List<int[]> edges;   // store edges as pairs\n    private boolean[] visited;\n    private int vertices;\n\n    public DFSEdgeList(int vertices) {\n        this.vertices = vertices;\n        edges = new ArrayList<>();\n        visited = new boolean[vertices];\n    }"
+    ],
+    [
+      37,
+      "// Add edge (undirected)\npublic void addEdge(int u, int v) {\n    edges.add(new int[]{u, v});\n    edges.add(new int[]{v, u}); // store both directions\n}\n// Get neighbors of a vertex by scanning edge list\nprivate List<Integer> getNeighbors(int v) {\n    List<Integer> neighbors = new ArrayList<>();\n    for (int[] edge : edges) {\n        if (edge[0] == v) {\n            neighbors.add(edge[1]);\n        }\n    }\n    return neighbors;\n}"
+    ],
+    [
+      38,
+      "// Recursive DFS\npublic void dfs(int v) {\n    visited[v] = true;\n    System.out.print(v + \" \");\n    for (int neighbor : getNeighbors(v)) {\n        if (!visited[neighbor]) {\n            dfs(neighbor);\n        }\n    }\n}"
+    ],
+    [
+      39,
+      "public static void main(String[] args) {\n        DFSEdgeList g = new DFSEdgeList(5);\n\n        // Build sample graph\n        g.addEdge(0, 1);\n        g.addEdge(0, 2);\n        g.addEdge(1, 3);\n        g.addEdge(1, 4);\n\n        System.out.println(\"DFS starting at node 0:\");\n        g.dfs(0);\n    }\n}"
+    ],
+    [
+      40,
+      "import java.util.*;\n\npublic class BFSEdgeList {\n    private List<int[]> edges;   // store edges as pairs\n    private boolean[] visited;\n    private int vertices;\n\n    public BFSEdgeList(int vertices) {\n        this.vertices = vertices;\n        edges = new ArrayList<>();\n        visited = new boolean[vertices];\n    }"
+    ],
+    [
+      41,
+      "/* Add edge (undirected)\npublic void addEdge(int u, int v) {\n    edges.add(new int[]{u, v});\n    edges.add(new int[]{v, u}); // store both directions\n}*/\n// Get neighbors of a vertex by scanning edge list\nprivate List<Integer> getNeighbors(int v) {\n    List<Integer> neighbors = new ArrayList<>();\n    for (int[] edge : edges) {\n        if (edge[0] == v) {\n            neighbors.add(edge[1]);\n        }\n    }\n    return neighbors;\n}"
+    ],
+    [
+      42,
+      "public void bfs(int start) { // BFS using a queue\n    Queue<Integer> queue = new LinkedList<>();\n    visited[start] = true;\n    queue.add(start);\n    while (!queue.isEmpty()) {\n        int v = queue.poll();\n        System.out.print(v + \" \");\n        for (int neighbor : getNeighbors(v)) {\n            if (!visited[neighbor]) {\n                visited[neighbor] = true;\n                queue.add(neighbor);\n            }\n        }\n    }\n}"
+    ],
+    [
+      43,
+      "public static void main(String[] args) {\n        BFSEdgeList g = new BFSEdgeList(5);\n\n        // Build sample graph\n        g.addEdge(0, 1);\n        g.addEdge(0, 2);\n        g.addEdge(1, 3);\n        g.addEdge(1, 4);\n\n        System.out.println(\"BFS starting at node 0:\");\n        g.bfs(0);\n    }\n}"
+    ],
+    [
+      44,
+      "Adjacency Matrix\n•  simple, fast lookups, but always\n   quadratic space\nAdjacency List\n•  memory-efficient, scales with\n   edges, but slower lookups\nDFS\n•  about diving deep into one path,\n   then backtracking to explore\n   others\nBFS\n•  explores “wide” before “deep,”\n  making it ideal for shortest path\n  problems and level-based\n   exploration"
+    ]
+  ],
+  "11": [
+    [
+      3,
+      "Graphs II: Shortest Paths & Minimum Spanning Trees"
+    ],
+    [
+      4,
+      "SHORTEST PATH\nThe shortest path problem is the task of finding the path\nbetween two nodes in a graph such that the total weight (or\ncost) of the edges along that path is minimized.\nIn graph theory, the Shortest Path Problem asks:\n\"Given a graph with vertices (nodes) and edges (connections),\nwhat is the path from a source vertex to a destination vertex\nthat has the minimum sum of edge weights?\""
+    ],
+    [
+      5,
+      "SHORTEST PATH\nThe graph can be:\n• Undirected (edges can be traversed both ways)\n• Directed (edges have a direction)\n• Weighted (edges have costs, distances, or times)"
+    ],
+    [
+      6,
+      "SHORTEST PATH\n• Vertices (nodes) represent locations\n• like cities, intersections, or routers\nEdges (connections) represent paths between locations,\neach with a weight (distance, time, cost)\ne.g. roads\n• The goal is to minimize the sum of weights along the chosen\npath"
+    ],
+    [
+      7,
+      "SHORTEST PATH\n• Single-source shortest path\n• Find shortest paths from one source to all other vertices\n(e.g., Dijkstra's, Bellman-Ford)\n• Single-pair shortest path\n• Find the shortest path between a specific source and\ndestination"
+    ],
+    [
+      8,
+      "SHORTEST PATH\n• All-pairs shortest path\n• Find shortest paths between every pair of vertices\nFloyd-Warshall\n• Constrained shortest path\n• Add conditions like avoiding certain nodes or minimizing\nmultiple criteria"
+    ],
+    [
+      9,
+      "SHORTEST PATH\n• Navigation systems\n• Google Maps, Waze\n• Network routing\n• internet packet delivery\nLogistics & transportation\nminimizing delivery costs\nOperations research\nresource allocation, scheduling"
+    ],
+    [
+      10,
+      "DIJKSTRA'S ALGORITHM\n• Introduced by Edsger W. Dijkstra\n• Dutch computer scientist, mathematician, and essayist\npioneered structured programming"
+    ],
+    [
+      11,
+      "DIJKSTRA'S ALGORITHM\nDijkstra's algorithm finds the shortest path from a source node\nto all other nodes in a weighted graph with non-negative edge\nweights\nIt's a greedy method that repeatedly chooses the closest\nunvisited node, then relaxes its outgoing edges to improve\nknown distances"
+    ],
+    [
+      12,
+      "DIJKSTRA'S ALGORITHM\nDijkstra's algorithm finds the shortest path from a source node\nto all other nodes in a weighted graph with non-negative edge\nweights\nIt's a greedy method that repeatedly chooses the closest\nunvisited node, then relaxes its outgoing edges to improve\nknown distances"
+    ],
+    [
+      13,
+      "DIJKSTRA'S ALGORITHM\n• Goal\n• Compute minimum total cost paths from a single source to\nall nodes\n• Works when\n• All edge weights are non-negative."
+    ],
+    [
+      14,
+      "Dijkstra’s algorithm: outputs and efficiency\nReturn the shortest distance to each vertex. Store predecessors to reconstruct routes.\nWith a binary heap and adjacency lists, the running time is O((V + E) log V). A simple array and adjacency matrix give O(V²)."
+    ],
+    [
+      15,
+      "Dijkstra’s algorithm: initialize and select\n1. Set the source distance to 0 and all others to ∞. Start with no visited vertices and no predecessors.\n2. Pick the unvisited vertex u with the smallest tentative distance."
+    ],
+    [
+      16,
+      "Dijkstra’s algorithm: relax and finalize\n3. For each outgoing edge u → v of weight w(u, v), compare dist[u] + w(u, v) with dist[v]. If the new distance is smaller, update dist[v] and set pred[v] = u.\n4. Mark u visited. Its shortest distance is final."
+    ],
+    [
+      17,
+      "Dijkstra’s algorithm: repeat\n5. Keep selecting the nearest unvisited vertex and relaxing outgoing edges. Stop when all vertices have been visited or the remaining vertices are unreachable."
+    ],
+    [
+      18,
+      "Dijkstra’s route: road network\nVertices: A (Alabang), B (Bicutan), C (Sucat), D (Taguig), E (Makati), F (Manila).\nDirected roads and travel times in minutes:\nA → B: 7\nA → C: 3\nB → D: 4\nB → E: 6\nC → B: 2\nC → D: 8\nD → E: 2\nD → F: 7\nE → F: 3\nFind the shortest path from A to F."
+    ],
+    [
+      19,
+      "Dijkstra’s route: initialization\nSource: A (Alabang).\nDistances in A–F order: [0, ∞, ∞, ∞, ∞, ∞].\nEvery predecessor is unset. The visited set is empty."
+    ],
+    [
+      20,
+      "Dijkstra’s route: settle A (0)\nA → B sets dist[B] = 7 and pred[B] = A.\nA → C sets dist[C] = 3 and pred[C] = A.\nDistances in A–F order: [0, 7, 3, ∞, ∞, ∞].\nVisited: {A}."
+    ],
+    [
+      21,
+      "Dijkstra’s route: settle C (3)\nC → B improves dist[B] from 7 to 5 (3 + 2). Set pred[B] = C.\nC → D sets dist[D] = 11 (3 + 8) and pred[D] = C.\nDistances in A–F order: [0, 5, 3, 11, ∞, ∞].\nVisited: {A, C}."
+    ],
+    [
+      22,
+      "Dijkstra’s route: settle B (5)\nB → D improves dist[D] from 11 to 9 (5 + 4). Set pred[D] = B.\nB → E sets dist[E] = 11 (5 + 6) and pred[E] = B.\nDistances in A–F order: [0, 5, 3, 9, 11, ∞].\nVisited: {A, C, B}."
+    ],
+    [
+      23,
+      "Dijkstra’s route: settle D (9)\nD → E ties the existing distance of 11 (9 + 2). Keep pred[E] = B.\nD → F sets dist[F] = 16 (9 + 7) and pred[F] = D.\nDistances in A–F order: [0, 5, 3, 9, 11, 16].\nVisited: {A, C, B, D}."
+    ],
+    [
+      24,
+      "Dijkstra’s route: settle E (11)\nE → F improves dist[F] from 16 to 14 (11 + 3). Set pred[F] = E.\nDistances in A–F order: [0, 5, 3, 9, 11, 14].\nVisited: {A, C, B, D, E}."
+    ],
+    [
+      25,
+      "Dijkstra’s route: settle F (14)\nF has no outgoing roads. All vertices are now visited.\nFollow predecessors from F: F ← E ← B ← C ← A.\nOne shortest route is A → C → B → E → F, at 3 + 2 + 6 + 3 = 14 minutes."
+    ],
+    [
+      26,
+      "Bellman–Ford algorithm: origins\nThe algorithm is named for Richard Bellman and Lester Ford Jr., who contributed to shortest-path and network algorithms."
+    ],
+    [
+      27,
+      "BELLMAN–FORD ALGORITHM\nBellman-Ford computes shortest paths from\na single source in weighted graphs that may\ninclude negative edge weights, and it can\ndetect negative-weight cycles reachable from\nthe source"
+    ],
+    [
+      28,
+      "Bellman–Ford algorithm: goal and edge types\nFind minimum-cost paths from one source, or detect a reachable negative-weight cycle. Directed edges can have negative weight. An undirected edge can be represented as two opposing directed edges, so a reachable negative undirected edge creates a negative cycle."
+    ],
+    [
+      29,
+      "Bellman–Ford algorithm: output and complexity\nReturn distances and predecessors or report a reachable negative-weight cycle. Relax every edge up to V − 1 times and check once more for an improvement. Worst-case time is O(VE)."
+    ],
+    [
+      30,
+      "Bellman–Ford algorithm: initialization\nSet dist[s] = 0 for source s and dist[v] = ∞ for each other vertex. Every predecessor starts unset."
+    ],
+    [
+      31,
+      "Bellman–Ford algorithm: relax edges\nFor each directed edge u → v of weight w(u, v), check whether u is reachable and dist[u] + w(u, v) < dist[v]. If so, update dist[v] and set pred[v] = u. Repeat for up to V − 1 passes."
+    ],
+    [
+      32,
+      "Bellman–Ford algorithm: detect negative cycles\nAfter the relaxation passes, look for an edge u → v with finite dist[u] and dist[u] + w(u, v) < dist[v]. Such an improvement indicates a negative-weight cycle reachable from the source."
+    ],
+    [
+      33,
+      "Bellman–Ford algorithm: why V − 1 passes?\nA simple path visits each vertex at most once and therefore has at most V − 1 edges. When shortest distances are finite, a shortest path can be chosen to be simple. Further improvement after V − 1 passes indicates a reachable negative cycle."
+    ],
+    [
+      34,
+      "Bellman–Ford example: courier network\nVertices: A (Alabang), B (Bicutan), C (Sucat), D (Taguig), E (Makati). Positive weights represent tolls and a negative weight represents a credit.\nDirected edges:\nA → B: 6\nA → C: 7\nB → C: −2\nB → D: 5\nC → D: 3\nD → E: 2\nC → E: 8\nFind shortest paths from A and test for a reachable negative cycle."
+    ],
+    [
+      35,
+      "Bellman–Ford example: initialization\nDistances in A–E order: [0, ∞, ∞, ∞, ∞].\nEvery predecessor starts unset."
+    ],
+    [
+      36,
+      "Bellman–Ford example: first pass\nA → B sets dist[B] = 6 and pred[B] = A.\nA → C sets dist[C] = 7 and pred[C] = A.\nB → C improves dist[C] to 4 (6 − 2) and sets pred[C] = B.\nB → D sets dist[D] = 11 (6 + 5) and pred[D] = B.\nC → D improves dist[D] to 7 (4 + 3) and sets pred[D] = C.\nD → E sets dist[E] = 9 (7 + 2) and pred[E] = D.\nC → E would cost 12 (4 + 8), so E stays at 9.\nDistances in A–E order: [0, 6, 4, 7, 9]."
+    ],
+    [
+      37,
+      "Bellman–Ford example: second pass\nCandidate totals for A → B, A → C, B → C, B → D, C → D, D → E, and C → E are 6, 7, 4, 11, 7, 9, and 12 respectively. None improves the distance to its endpoint.\nDistances in A–E order: [0, 6, 4, 7, 9]."
+    ],
+    [
+      38,
+      "Bellman–Ford example: third pass\nThere are no further improvements. With five vertices, the general bound is four relaxation passes. This example can stop after the second pass because that pass made no changes."
+    ],
+    [
+      39,
+      "Bellman–Ford example: cycle check\nEvery reachable edge fails to improve its endpoint’s distance. The example has no reachable negative-weight cycle."
+    ],
+    [
+      40,
+      "Bellman–Ford example: shortest routes\nA: 0, stay at A.\nB: 6 via A → B.\nC: 4 via A → B → C.\nD: 7 via A → B → C → D.\nE: 9 via A → B → C → D → E."
+    ],
+    [
+      41,
+      "MST\nA spanning tree of a graph is a subset of edges that connects all\nvertices together without forming any cycles.\n• A minimum spanning tree (MST) is a spanning tree with the\nminimum possible total edge weight"
+    ],
+    [
+      42,
+      "Minimum spanning tree: properties\nSpans every vertex of the graph. A spanning tree has V − 1 edges and no cycles. An MST has the least total weight among all spanning trees. Distinct edge weights guarantee a unique MST."
+    ],
+    [
+      43,
+      "MST\nUSE\nNetwork design: Build cost-efficient road, telecom, or electrical\nnetworks\nClustering in machine learning: MST helps group data points by\nminimum linkage\nApproximation algorithms: Used in solving complex optimization\nproblems (e.g., traveling salesman)"
+    ],
+    [
+      44,
+      "KRUSKAL'S ALGORITHM\na greedy method used to find the Minimum Spanning Tree (MST) of\na connected, weighted, undirected graph\nworks by repeatedly adding the smallest edge that doesn't form a\ncycle until all vertices are connected\n• Builds the MST by sorting edges by weight and adding them one by\none, ensuring no cycles are formed"
+    ],
+    [
+      45,
+      "KRUSKAL'S ALGORITHM\nStep-by-Step Process\n1. Sort all edges in non-decreasing order of weight.\n2. Initialize MST as empty.\n3. Iterate through edges:\na) Pick the smallest edge.\nb) If adding it does not form a cycle, include it in the MST.\nc) If it forms a cycle, discard it.\n4. Repeat until MST has (V-1) edges (where (V) is the number of\nvertices).\n5. Cycle detection: Usually done with the Union-Find (Disjoint Set\nUnion) data structure."
+    ],
+    [
+      46,
+      "Kruskal’s algorithm: sort the roads\nUse the same city labels as the Dijkstra example. The Kruskal example lists eight undirected edges. Sort by weight:\nD–E: 2\nA–C: 3\nE–F: 3\nB–D: 4\nB–E: 6\nA–B: 7\nD–F: 7\nC–D: 8"
+    ],
+    [
+      47,
+      "Kruskal’s algorithm: process the first five edges\n1. Add D–E (2). Total cost: 2.\n2. Add A–C (3). Total cost: 5.\n3. Add E–F (3). Total cost: 8.\n4. Add B–D (4). Total cost: 12.\n5. Skip B–E (6). Both endpoints are already in the same component, so this edge would form a cycle."
+    ],
+    [
+      48,
+      "Kruskal’s algorithm: complete the spanning tree\n6. Add A–B (7). The two remaining components merge. Total cost: 19.\n7. Skip D–F (7), which would form a cycle.\n8. Skip C–D (8), which would also form a cycle.\nThe algorithm can stop as soon as it accepts its fifth edge."
+    ],
+    [
+      49,
+      "Kruskal’s algorithm: result\nThe tree contains D–E, A–C, E–F, B–D, and A–B. The total cost is 19.\nUnion–Find checks whether the endpoints of an edge already belong to the same component."
+    ],
+    [
+      50,
+      "PRIM'S ALGORITHM\ngreedy algorithm for finding a Minimum Spanning Tree (MST)\nof a connected, weighted, undirected graph\n• Unlike Kruskal's (which is edge-based), Prim's grows the\nMST vertex by vertex\n• Starts from a chosen vertex and repeatedly adds the\ncheapest edge that connects the tree to a new vertex"
+    ],
+    [
+      51,
+      "Prim’s algorithm: steps\n1. Choose any starting vertex.\n2. Find a lowest-weight edge connecting the current tree to an outside vertex.\n3. Add that edge and its new endpoint.\n4. Repeat until the tree includes all V vertices and has V − 1 edges."
+    ],
+    [
+      52,
+      "Prim’s example: input graph\nVertices: A (Alabang), B (Bicutan), C (Sucat), D (Taguig), E (Makati), F (Manila).\nUndirected edges listed on slide 52: A–B (7), A–C (3), B–D (4), B–E (6), C–D (8), D–E (2), D–F (7), E–F (3).\nSlide 53’s trace also uses C–B (2). Include that edge to reproduce its result of 14. Using only the eight edges listed here gives an MST of weight 19, as in the Kruskal example."
+    ],
+    [
+      53,
+      "Prim’s example: grow from A\n1. From {A}, add A–C (3). Running cost: 3.\n2. From {A, C}, add C–B (2). Running cost: 5.\n3. From {A, C, B}, add B–D (4). Running cost: 9.\n4. From {A, C, B, D}, add D–E (2). Running cost: 11.\n5. From {A, C, B, D, E}, add E–F (3). Running cost: 14.\nThe trace above uses the additional C–B edge explained on slide 52."
+    ],
+    [
+      54,
+      "Prim and Kruskal: how the tree grows\nPrim grows one tree outward from a starting vertex. An array-based implementation works well for dense graphs. Kruskal examines edges in weight order and merges components, making it convenient for sparse edge lists. Both find an MST of the same total weight when given the same graph."
+    ],
+    [
+      55,
+      "Exercise: university campus network\nBuildings: A (Admin), B (Library), C (Laboratory), D (Dormitory), E (Gym), F (Auditorium).\nDirected latency edges: A → B (7), A → C (3), B → D (4), B → E (6), C → B (2), C → D (8), D → E (2), D → F (7), E → F (3).\n\n1. Find the minimum latency from A to F.\n2. Add B → C with weight −2 and recompute shortest distances from A.\n3. Treat the original links as undirected cable costs and connect all buildings with Prim’s algorithm starting at A.\n4. Use Kruskal’s algorithm on the same undirected network. Sort edges and skip those that create a cycle."
+    ]
+  ],
+  "12": [
+    [
+      3,
+      "Algorithmic Paradigms &\n Dynamic Programming"
+    ],
+    [
+      4,
+      "GREEDY\nALGORITHM"
+    ],
+    [
+      5,
+      "A greedy algorithm is a problem-solving\napproach that makes the best possible choice at\n each step, hoping that these local best choices\n       will lead to an overall optimal solution.\n\n  “Take the best option available right now and\n              never look back.”"
+    ],
+    [
+      6,
+      "Greedy Algorithms - Concept\n\n  ➢Make the locally optimal choice at each step\n\n  ➢Assumes local optimum leads to global optimum\n\n  ➢Works when the problem has the greedy-choice\n       property and optimal substructure"
+    ],
+    [
+      7,
+      "Greedy Algorithms - Characteristics\n\n  ➢Makes decisions one step at a time\n\n  ➢Does not reconsider previous choices\n\n   ➢Usually faster and simpler than exhaustive methods\n\n  ➢Does not always produce the optimal solution"
+    ],
+    [
+      8,
+      "Greedy Algorithms - Practical Use\n\n   ➢Dijkstra's Shortest Path Algorithm\n   ➢Prim's Minimum Spanning Tree\n   ➢Kruskal's Minimum Spanning Tree\n   ➢Huffman Coding (data compression)\n   ➢Interval scheduling (meeting rooms)\n   ➢Activity Selection Problem\n  ➢Job Scheduling"
+    ],
+    [
+      9,
+      "Greedy Algorithms - Example\n\n                         Activity                       Start                   End\n\n                   A                      1                      4\n\n                    B                      3                      5\n\n                     C                      0                      6\n\n                  D                      5                      7\n\n                       E                      8                      9\n\n     ❑Pick the activity that finishes earliest:\n           1. Pick A (ends at 4)\n           2. Pick D (starts at 5)\n           3. Pick E (starts at 8)"
+    ],
+    [
+      10,
+      "Divide & Conquer\n\n➢Break problem into smaller subproblems\n\n➢Solve each recursively\n\n➢Combine solutions"
+    ],
+    [
+      11,
+      "Divide & Conquer\n\n              T(n) = a * T(n/b) + f(n)\n\nThe total time needed to solve a problem of size n is\nthe number of subproblems created multiplied by the\ntime needed to solve each subproblem plus the extra\n       work done outside the recursive calls"
+    ],
+    [
+      12,
+      "Divide & Conquer - Concept\n\nMerge Sort\n1. Divide into 2 halves\n2. Recursively sort each half\n3. Merge the results\n\n                    T(n) = 2T(n/2) + n\n                   O(n log n)"
+    ],
+    [
+      13,
+      "Divide & Conquer - Concept\n\nBinary Search\n1. Check middle element\n2. Search only one half\n\n                    T(n) = T(n/2) + 1\n                       O(log n)"
+    ],
+    [
+      14,
+      "Divide & Conquer\n\nDivide & Conquer is a strategy where we break a big\n  problem into smaller problems, solve the smaller\n     problems, and then combine the answers."
+    ],
+    [
+      15,
+      "Memoization - Concept\n\n  ➢Memoization is remembering answers to problems you've\n     already solved so you don't have to solve them again.\n\n  ➢Comes from the word Memo, which is to write it in sticky notes\n    and checking them later"
+    ],
+    [
+      16,
+      "Memoization - Concept\n\n  ➢Used in dynamic programming\n    ➢Dynamic Programming is an algorithmic technique that\n        solves problems by breaking them into overlapping\n       subproblems and storing the results to avoid repeated\n        computations\n     ➢An exam has 1,000 questions\n      ➢However, there are items that has the same question and\n         answer\n    ➢We use memoization to help create a way of\n         programming to put these questions in cache for later use\n         and comparison"
+    ],
+    [
+      17,
+      "MEMORIZATION\n  is for human"
+    ],
+    [
+      18,
+      "MEMOIZATION\nis for machine"
+    ],
+    [
+      19,
+      "Memoization\n\nint fib(int n, int[] memo) {\n  if (n <= 1) return n;\n  if (memo[n] != -1) return memo[n];\n return memo[n] = fib(n-1, memo) + fib(n-2, memo);\n}"
+    ],
+    [
+      20,
+      "Tabulation - Concept\n\n  ➢Is another dynamic programming technique\n\n  ➢Is like memoization but with different strategy\n\n ➢We use tables"
+    ],
+    [
+      21,
+      "Tabulation - Concept\n Savings\n\n   Month     Savings     Month     Savings     Month     Savings\n\n      1        ₱200         5         ₱1,200        9        ₱3,200\n\n      2        ₱400         6         ₱1,600        10        ₱3,800\n\n      3        ₱600         7         ₱2,000        11        ₱4,400\n\n      4        ₱800         8         ₱2,600        12        ₱5,000\n\n  ➢Instead of calculating the total every time, you keep a table and\n     update it monthly"
+    ],
+    [
+      22,
+      "Tabulation\n\nint fib(int n) {\n   int[] dp = new int[n+1];\n   dp[0] = 0; dp[1] = 1;\n   for (int i = 2; i <= n; i++)\n      dp[i] = dp[i-1] + dp[i-2];\n   return dp[n];\n}"
+    ],
+    [
+      23,
+      "Tabulation - Use\n\n  ➢Payroll System – taxation (TRAIN Law)\n\n  ➢Spell Checker\n\n  ➢Loan Management System – Compounding Interest, Payment\n     schedules"
+    ],
+    [
+      24,
+      "Tabulation vs Memoization\n\n  Memoization                                        Tabulation\n\n Top-Down                Bottom-Up\n\n Solve when needed         Build answers first\n\n Uses recursion             Usually uses loops\n\n Stores answers             Stores answers"
+    ]
+  ]
+}
